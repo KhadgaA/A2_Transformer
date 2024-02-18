@@ -1,0 +1,12 @@
+wandb_version: 1
+
+dropout:
+  value: 0.2
+epochs:
+  value: 2
+fc_size:
+  value: 1024
+learning_rate:
+  value: 0.00938122659993349
+optimizer:
+  value: sgd

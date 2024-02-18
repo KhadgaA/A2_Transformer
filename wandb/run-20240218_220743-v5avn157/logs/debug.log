@@ -1,0 +1,41 @@
+2024-02-18 22:07:43,741 INFO    Thread-12 :22060 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-18 22:07:43,741 INFO    Thread-12 :22060 [wandb_setup.py:_flush():76] Configure stats pid to 22060
+2024-02-18 22:07:43,741 INFO    Thread-12 :22060 [wandb_setup.py:_flush():76] Loading settings from C:\Users\KHADGA JYOTH ALLI\.config\wandb\settings
+2024-02-18 22:07:43,741 INFO    Thread-12 :22060 [wandb_setup.py:_flush():76] Loading settings from c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\settings
+2024-02-18 22:07:43,741 INFO    Thread-12 :22060 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'DL_Assignment2', 'entity': 'khadgaa', 'root_dir': 'c:\\Users\\KHADGA JYOTH ALLI\\Desktop\\programming\\Class Work\\IITJ\\DL\\A2_Transformer', 'sweep_id': '5sp4y5ne', 'run_id': 'v5avn157', 'sweep_param_path': 'c:\\Users\\KHADGA JYOTH ALLI\\Desktop\\programming\\Class Work\\IITJ\\DL\\A2_Transformer\\wandb\\sweep-5sp4y5ne\\config-v5avn157.yaml'}
+2024-02-18 22:07:43,741 INFO    Thread-12 :22060 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-18 22:07:43,741 INFO    Thread-12 :22060 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-02-18 22:07:43,741 INFO    Thread-12 :22060 [wandb_init.py:_log_setup():526] Logging user logs to c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_220743-v5avn157\logs\debug.log
+2024-02-18 22:07:43,741 INFO    Thread-12 :22060 [wandb_init.py:_log_setup():527] Logging internal logs to c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_220743-v5avn157\logs\debug-internal.log
+2024-02-18 22:07:43,741 INFO    Thread-12 :22060 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000022617D72EB0>
+2024-02-18 22:07:43,741 INFO    Thread-12 :22060 [wandb_init.py:init():566] calling init triggers
+2024-02-18 22:07:43,741 INFO    Thread-12 :22060 [wandb_init.py:init():573] wandb.init called with sweep_config: {'dropout': 0.4, 'epochs': 2, 'fc_size': 256, 'learning_rate': 0.00932393602016971, 'optimizer': 'adam'}
+config: {'architecture': 'CNN', 'val_fold': 3, 'n_classes': 10}
+2024-02-18 22:07:43,741 INFO    Thread-12 :22060 [wandb_init.py:init():616] starting backend
+2024-02-18 22:07:43,741 INFO    Thread-12 :22060 [wandb_init.py:init():620] setting up manager
+2024-02-18 22:07:43,757 INFO    Thread-12 :22060 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-02-18 22:07:43,757 INFO    Thread-12 :22060 [wandb_init.py:init():628] backend started and connected
+2024-02-18 22:07:43,788 INFO    Thread-12 :22060 [wandb_run.py:_config_callback():1343] config_cb None None {'dropout': 0.4, 'epochs': 2, 'fc_size': 256, 'learning_rate': 0.00932393602016971, 'optimizer': 'adam'}
+2024-02-18 22:07:43,788 INFO    Thread-12 :22060 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-02-18 22:07:43,788 INFO    Thread-12 :22060 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-02-18 22:07:43,788 INFO    Thread-12 :22060 [wandb_init.py:init():720] updated telemetry
+2024-02-18 22:07:44,035 INFO    Thread-12 :22060 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-18 22:07:44,881 INFO    Thread-12 :22060 [wandb_run.py:_on_init():2262] communicating current version
+2024-02-18 22:07:45,273 INFO    Thread-12 :22060 [wandb_run.py:_on_init():2271] got version response 
+2024-02-18 22:07:45,273 INFO    Thread-12 :22060 [wandb_init.py:init():804] starting run threads in backend
+2024-02-18 22:07:53,777 INFO    Thread-12 :22060 [wandb_run.py:_console_start():2241] atexit reg
+2024-02-18 22:07:53,777 INFO    Thread-12 :22060 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-02-18 22:07:53,793 INFO    Thread-12 :22060 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-02-18 22:07:53,793 INFO    Thread-12 :22060 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-02-18 22:07:53,793 INFO    Thread-12 :22060 [wandb_init.py:init():847] run started, returning control to user process
+2024-02-18 22:07:53,793 INFO    Thread-12 :22060 [wandb_run.py:_config_callback():1343] config_cb None None {'trainable_params': 2116634, 'non_trainable_params': 0, 'total_params': 2116634}
+2024-02-18 22:09:43,230 INFO    Thread-12 :22060 [wandb_run.py:_finish():1970] finishing run khadgaa/DL_Assignment2/v5avn157
+2024-02-18 22:09:43,230 INFO    Thread-12 :22060 [jupyter.py:save_history():445] not saving jupyter history
+2024-02-18 22:09:43,230 INFO    Thread-12 :22060 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-02-18 22:09:43,230 INFO    Thread-12 :22060 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-02-18 22:09:43,230 INFO    Thread-12 :22060 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-02-18 22:09:43,230 INFO    Thread-12 :22060 [wandb_run.py:_restore():2193] restore
+2024-02-18 22:09:43,231 INFO    Thread-12 :22060 [wandb_run.py:_restore():2199] restore done
+2024-02-18 22:09:49,417 INFO    Thread-12 :22060 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-18 22:09:49,417 INFO    Thread-12 :22060 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-18 22:09:49,437 INFO    Thread-12 :22060 [wandb_run.py:_footer_sync_info():3825] logging synced files

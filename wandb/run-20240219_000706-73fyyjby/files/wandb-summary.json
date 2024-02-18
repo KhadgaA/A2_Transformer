@@ -1,0 +1,1 @@
+{"avg_train_accuracy": 0.11666666666666667, "avg_train_loss": 2.3443476597468056, "avg_valid_accuracy": 0.0885416679084301, "avg_valid_loss": 2.372469663619995, "avg_test_accuracy": 0.1250000037252903, "avg_test_loss": 2.3360064029693604, "best_test_accuracy": 0.1354166716337204, "_wandb": {"runtime": 7}}

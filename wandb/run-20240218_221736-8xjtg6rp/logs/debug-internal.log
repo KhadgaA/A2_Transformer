@@ -1,0 +1,278 @@
+2024-02-18 22:17:36,216 INFO    StreamThr :5896 [internal.py:wandb_internal():86] W&B internal server running at pid: 5896, started at: 2024-02-18 22:17:36.216533
+2024-02-18 22:17:36,224 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status
+2024-02-18 22:17:36,240 INFO    WriterThread:5896 [datastore.py:open_for_write():87] open: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\run-8xjtg6rp.wandb
+2024-02-18 22:17:36,241 DEBUG   SenderThread:5896 [sender.py:send():382] send: header
+2024-02-18 22:17:36,300 DEBUG   SenderThread:5896 [sender.py:send():382] send: run
+2024-02-18 22:17:37,091 INFO    SenderThread:5896 [dir_watcher.py:__init__():211] watching files in: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files
+2024-02-18 22:17:37,091 INFO    SenderThread:5896 [sender.py:_start_run_threads():1136] run started: 8xjtg6rp with start time 1708274856.216533
+2024-02-18 22:17:37,091 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: check_version
+2024-02-18 22:17:37,091 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: check_version
+2024-02-18 22:17:37,389 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: run_start
+2024-02-18 22:17:37,996 DEBUG   HandlerThread:5896 [system_info.py:__init__():27] System info init
+2024-02-18 22:17:37,996 DEBUG   HandlerThread:5896 [system_info.py:__init__():42] System info init done
+2024-02-18 22:17:37,996 INFO    HandlerThread:5896 [system_monitor.py:start():194] Starting system monitor
+2024-02-18 22:17:37,996 INFO    SystemMonitor:5896 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-18 22:17:37,996 INFO    HandlerThread:5896 [system_monitor.py:probe():214] Collecting system info
+2024-02-18 22:17:38,012 INFO    SystemMonitor:5896 [interfaces.py:start():190] Started cpu monitoring
+2024-02-18 22:17:38,012 INFO    SystemMonitor:5896 [interfaces.py:start():190] Started disk monitoring
+2024-02-18 22:17:38,012 INFO    SystemMonitor:5896 [interfaces.py:start():190] Started gpu monitoring
+2024-02-18 22:17:38,012 INFO    SystemMonitor:5896 [interfaces.py:start():190] Started memory monitoring
+2024-02-18 22:17:38,028 INFO    SystemMonitor:5896 [interfaces.py:start():190] Started network monitoring
+2024-02-18 22:17:38,028 DEBUG   HandlerThread:5896 [system_info.py:probe():151] Probing system
+2024-02-18 22:17:38,028 DEBUG   HandlerThread:5896 [system_info.py:_probe_git():136] Probing git
+2024-02-18 22:17:38,129 DEBUG   HandlerThread:5896 [system_info.py:_probe_git():144] Probing git done
+2024-02-18 22:17:38,129 DEBUG   HandlerThread:5896 [system_info.py:probe():199] Probing system done
+2024-02-18 22:17:38,129 DEBUG   HandlerThread:5896 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22635-SP0', 'python': '3.9.16', 'heartbeatAt': '2024-02-18T16:47:38.028206', 'startedAt': '2024-02-18T16:47:36.189072', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/KhadgaA/A2_Transformer.git', 'commit': '67a588d07b584e0f6ce697776f21a727f49cdb94'}, 'email': 'khadgajyothalli@gmail.com', 'root': 'C:/Users/KHADGA JYOTH ALLI/Desktop/programming/Class Work/IITJ/DL/A2_Transformer', 'host': 'Khadga-Laptop', 'username': 'Khadga', 'executable': 'c:\\Users\\KHADGA JYOTH ALLI\\.conda\\envs\\gpu\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3000.0, 'min': 0.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 0.0, 'max': 3000.0}], 'disk': {'/': {'total': 476.00780868530273, 'used': 364.73499298095703}}, 'gpu': 'NVIDIA GeForce GTX 1650 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650 Ti', 'memory_total': 4294967296}], 'memory': {'total': 15.362796783447266}}
+2024-02-18 22:17:38,129 INFO    HandlerThread:5896 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-18 22:17:38,129 INFO    HandlerThread:5896 [system_monitor.py:probe():227] Publishing system info
+2024-02-18 22:17:38,129 DEBUG   HandlerThread:5896 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-18 22:17:39,099 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\conda-environment.yaml
+2024-02-18 22:17:42,070 ERROR   gpu       :5896 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-18 22:17:42,070 ERROR   gpu       :5896 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-02-18 22:17:45,126 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\conda-environment.yaml
+2024-02-18 22:17:45,244 DEBUG   HandlerThread:5896 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-18 22:17:45,249 INFO    HandlerThread:5896 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-18 22:17:45,257 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:17:45,257 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-18 22:17:45,257 DEBUG   SenderThread:5896 [sender.py:send():382] send: files
+2024-02-18 22:17:45,257 INFO    SenderThread:5896 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-18 22:17:45,286 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-18 22:17:45,286 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-18 22:17:45,286 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: python_packages
+2024-02-18 22:17:45,286 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-18 22:17:45,286 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: stop_status
+2024-02-18 22:17:45,737 DEBUG   SenderThread:5896 [sender.py:send():382] send: telemetry
+2024-02-18 22:17:45,737 DEBUG   SenderThread:5896 [sender.py:send():382] send: config
+2024-02-18 22:17:46,132 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:17:46,132 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\wandb-metadata.json
+2024-02-18 22:17:46,132 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\requirements.txt
+2024-02-18 22:17:46,472 INFO    wandb-upload_0:5896 [upload_job.py:push():131] Uploaded file C:\Users\KHADGA~1\AppData\Local\Temp\tmp9a4ylujxwandb\uya0t9pc-wandb-metadata.json
+2024-02-18 22:17:46,743 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:17:48,148 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:17:51,764 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:17:56,260 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:17:57,680 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:18:00,320 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-18 22:18:00,320 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-18 22:18:00,321 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: stop_status
+2024-02-18 22:18:02,696 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:18:06,381 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:18:08,469 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:18:09,411 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\config.yaml
+2024-02-18 22:18:14,471 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:18:14,550 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:18:15,312 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-18 22:18:15,329 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-18 22:18:15,331 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: stop_status
+2024-02-18 22:18:19,768 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:18:22,549 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:18:25,748 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:18:30,320 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-18 22:18:30,341 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-18 22:18:30,341 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: stop_status
+2024-02-18 22:18:30,640 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:18:31,751 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:18:36,793 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:18:38,032 DEBUG   SystemMonitor:5896 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-18 22:18:38,035 DEBUG   SenderThread:5896 [sender.py:send():382] send: stats
+2024-02-18 22:18:38,730 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:18:42,061 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:18:45,333 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-18 22:18:45,348 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-18 22:18:45,348 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: stop_status
+2024-02-18 22:18:46,803 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:18:47,805 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:18:50,841 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:18:53,735 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:18:53,833 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 22:18:53,840 DEBUG   SenderThread:5896 [sender.py:send():382] send: history
+2024-02-18 22:18:53,841 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 22:18:53,841 INFO    SenderThread:5896 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 22:18:53,874 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\wandb-summary.json
+2024-02-18 22:18:56,937 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:18:58,860 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:19:00,334 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-18 22:19:00,375 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-18 22:19:00,375 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: stop_status
+2024-02-18 22:19:04,012 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:19:04,028 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:19:08,038 DEBUG   SenderThread:5896 [sender.py:send():382] send: stats
+2024-02-18 22:19:09,055 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:19:12,077 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:19:14,098 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:19:15,337 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-18 22:19:15,389 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-18 22:19:15,389 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: stop_status
+2024-02-18 22:19:20,069 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:19:20,181 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:19:25,104 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:19:28,242 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:19:30,340 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-18 22:19:30,361 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:19:30,396 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-18 22:19:30,396 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: stop_status
+2024-02-18 22:19:35,999 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:19:36,326 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:19:38,042 DEBUG   SenderThread:5896 [sender.py:send():382] send: stats
+2024-02-18 22:19:41,062 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:19:42,395 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:19:45,347 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-18 22:19:45,409 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-18 22:19:45,409 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: stop_status
+2024-02-18 22:19:46,832 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:19:50,452 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:19:51,924 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:19:54,496 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:19:57,687 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:19:58,687 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-18 22:19:58,687 DEBUG   SenderThread:5896 [sender.py:send():382] send: history
+2024-02-18 22:19:58,687 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 22:19:58,687 INFO    SenderThread:5896 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 22:19:59,541 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\wandb-summary.json
+2024-02-18 22:20:00,355 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-18 22:20:00,395 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-18 22:20:00,395 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: stop_status
+2024-02-18 22:20:00,548 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:20:02,812 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:20:03,735 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 22:20:03,735 INFO    SenderThread:5896 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 22:20:03,735 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: summary_record
+2024-02-18 22:20:03,742 INFO    SenderThread:5896 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 22:20:03,742 DEBUG   SenderThread:5896 [sender.py:send():382] send: telemetry
+2024-02-18 22:20:03,742 DEBUG   SenderThread:5896 [sender.py:send():382] send: exit
+2024-02-18 22:20:03,743 INFO    SenderThread:5896 [sender.py:send_exit():589] handling exit code: 0
+2024-02-18 22:20:03,743 INFO    SenderThread:5896 [sender.py:send_exit():591] handling runtime: 146
+2024-02-18 22:20:03,743 INFO    SenderThread:5896 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 22:20:03,744 INFO    SenderThread:5896 [sender.py:send_exit():597] send defer
+2024-02-18 22:20:03,744 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:03,744 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-18 22:20:03,744 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:03,744 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-18 22:20:03,744 INFO    SenderThread:5896 [sender.py:transition_state():617] send defer: 1
+2024-02-18 22:20:03,744 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:03,744 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-18 22:20:03,745 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:03,745 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-18 22:20:03,745 INFO    SenderThread:5896 [sender.py:transition_state():617] send defer: 2
+2024-02-18 22:20:03,745 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:03,745 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-18 22:20:03,745 INFO    HandlerThread:5896 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-18 22:20:03,749 DEBUG   SystemMonitor:5896 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-18 22:20:03,749 INFO    HandlerThread:5896 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-18 22:20:03,749 DEBUG   SystemMonitor:5896 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-18 22:20:03,749 INFO    HandlerThread:5896 [interfaces.py:finish():202] Joined disk monitor
+2024-02-18 22:20:03,796 INFO    HandlerThread:5896 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-18 22:20:03,796 INFO    HandlerThread:5896 [interfaces.py:finish():202] Joined memory monitor
+2024-02-18 22:20:03,796 INFO    HandlerThread:5896 [interfaces.py:finish():202] Joined network monitor
+2024-02-18 22:20:03,797 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:03,798 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-18 22:20:03,798 INFO    SenderThread:5896 [sender.py:transition_state():617] send defer: 3
+2024-02-18 22:20:03,798 DEBUG   SenderThread:5896 [sender.py:send():382] send: stats
+2024-02-18 22:20:03,798 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:03,798 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-18 22:20:03,798 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:03,798 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-18 22:20:03,798 INFO    SenderThread:5896 [sender.py:transition_state():617] send defer: 4
+2024-02-18 22:20:03,798 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:03,798 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-18 22:20:03,798 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:03,798 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-18 22:20:03,798 INFO    SenderThread:5896 [sender.py:transition_state():617] send defer: 5
+2024-02-18 22:20:03,798 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:03,798 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-18 22:20:03,798 DEBUG   SenderThread:5896 [sender.py:send():382] send: summary
+2024-02-18 22:20:03,798 INFO    SenderThread:5896 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-18 22:20:03,798 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:03,798 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-18 22:20:03,798 INFO    SenderThread:5896 [sender.py:transition_state():617] send defer: 6
+2024-02-18 22:20:03,798 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:03,798 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-18 22:20:03,798 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:03,798 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-18 22:20:03,805 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: status_report
+2024-02-18 22:20:04,187 INFO    SenderThread:5896 [sender.py:transition_state():617] send defer: 7
+2024-02-18 22:20:04,187 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:04,187 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-18 22:20:04,193 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:04,193 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-18 22:20:04,591 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\wandb-summary.json
+2024-02-18 22:20:04,591 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\config.yaml
+2024-02-18 22:20:04,743 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-18 22:20:06,597 INFO    Thread-16 :5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:20:08,146 INFO    SenderThread:5896 [sender.py:transition_state():617] send defer: 8
+2024-02-18 22:20:08,146 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: poll_exit
+2024-02-18 22:20:08,146 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:08,146 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-18 22:20:08,146 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:08,146 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-18 22:20:08,146 INFO    SenderThread:5896 [sender.py:transition_state():617] send defer: 9
+2024-02-18 22:20:08,146 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:08,146 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-18 22:20:08,146 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:08,146 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-18 22:20:08,146 INFO    SenderThread:5896 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-18 22:20:08,604 INFO    SenderThread:5896 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:20:08,604 INFO    SenderThread:5896 [dir_watcher.py:finish():388] scan: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files
+2024-02-18 22:20:08,604 INFO    SenderThread:5896 [dir_watcher.py:finish():402] scan save: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\conda-environment.yaml conda-environment.yaml
+2024-02-18 22:20:08,604 INFO    SenderThread:5896 [dir_watcher.py:finish():402] scan save: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\config.yaml config.yaml
+2024-02-18 22:20:08,604 INFO    SenderThread:5896 [dir_watcher.py:finish():402] scan save: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log output.log
+2024-02-18 22:20:08,604 INFO    SenderThread:5896 [dir_watcher.py:finish():402] scan save: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\requirements.txt requirements.txt
+2024-02-18 22:20:08,614 INFO    SenderThread:5896 [dir_watcher.py:finish():402] scan save: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\wandb-metadata.json wandb-metadata.json
+2024-02-18 22:20:08,614 INFO    SenderThread:5896 [dir_watcher.py:finish():402] scan save: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\wandb-summary.json wandb-summary.json
+2024-02-18 22:20:08,617 INFO    SenderThread:5896 [sender.py:transition_state():617] send defer: 10
+2024-02-18 22:20:08,617 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:08,617 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-18 22:20:08,617 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:08,617 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-18 22:20:08,617 INFO    SenderThread:5896 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-18 22:20:08,757 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-18 22:20:08,757 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: poll_exit
+2024-02-18 22:20:09,409 INFO    wandb-upload_0:5896 [upload_job.py:push():131] Uploaded file c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\conda-environment.yaml
+2024-02-18 22:20:09,534 INFO    wandb-upload_1:5896 [upload_job.py:push():131] Uploaded file c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\config.yaml
+2024-02-18 22:20:09,604 INFO    wandb-upload_4:5896 [upload_job.py:push():131] Uploaded file c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\wandb-summary.json
+2024-02-18 22:20:09,625 INFO    wandb-upload_2:5896 [upload_job.py:push():131] Uploaded file c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\output.log
+2024-02-18 22:20:09,632 INFO    wandb-upload_3:5896 [upload_job.py:push():131] Uploaded file c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\files\requirements.txt
+2024-02-18 22:20:09,763 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-18 22:20:09,763 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: poll_exit
+2024-02-18 22:20:09,847 INFO    Thread-15 :5896 [sender.py:transition_state():617] send defer: 11
+2024-02-18 22:20:09,848 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:09,848 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-18 22:20:09,849 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:09,849 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-18 22:20:09,849 INFO    SenderThread:5896 [file_pusher.py:join():178] waiting for file pusher
+2024-02-18 22:20:09,850 INFO    SenderThread:5896 [sender.py:transition_state():617] send defer: 12
+2024-02-18 22:20:09,850 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:09,851 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-18 22:20:09,851 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:09,851 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-18 22:20:09,851 INFO    SenderThread:5896 [file_stream.py:finish():595] file stream finish called
+2024-02-18 22:20:10,764 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-18 22:20:10,957 INFO    SenderThread:5896 [file_stream.py:finish():599] file stream finish is done
+2024-02-18 22:20:10,958 INFO    SenderThread:5896 [sender.py:transition_state():617] send defer: 13
+2024-02-18 22:20:10,958 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: poll_exit
+2024-02-18 22:20:10,958 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:10,958 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-18 22:20:10,958 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:10,958 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-18 22:20:10,958 INFO    SenderThread:5896 [sender.py:transition_state():617] send defer: 14
+2024-02-18 22:20:10,958 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: defer
+2024-02-18 22:20:10,958 INFO    HandlerThread:5896 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-18 22:20:10,958 DEBUG   SenderThread:5896 [sender.py:send():382] send: final
+2024-02-18 22:20:10,958 DEBUG   SenderThread:5896 [sender.py:send():382] send: footer
+2024-02-18 22:20:10,958 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: defer
+2024-02-18 22:20:10,958 INFO    SenderThread:5896 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-18 22:20:10,958 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-18 22:20:10,958 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: poll_exit
+2024-02-18 22:20:10,958 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-18 22:20:10,965 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: server_info
+2024-02-18 22:20:10,965 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-18 22:20:10,966 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: server_info
+2024-02-18 22:20:10,966 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-18 22:20:10,967 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: job_info
+2024-02-18 22:20:11,275 DEBUG   SenderThread:5896 [sender.py:send_request():409] send_request: job_info
+2024-02-18 22:20:11,278 DEBUG   HandlerThread:5896 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-18 22:20:11,278 INFO    HandlerThread:5896 [handler.py:finish():869] shutting down handler
+2024-02-18 22:20:11,971 INFO    WriterThread:5896 [datastore.py:close():296] close: c:\Users\KHADGA JYOTH ALLI\Desktop\programming\Class Work\IITJ\DL\A2_Transformer\wandb\run-20240218_221736-8xjtg6rp\run-8xjtg6rp.wandb
+2024-02-18 22:20:12,278 INFO    SenderThread:5896 [sender.py:finish():1572] shutting down sender
+2024-02-18 22:20:12,278 INFO    SenderThread:5896 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-18 22:20:12,278 INFO    SenderThread:5896 [file_pusher.py:join():178] waiting for file pusher

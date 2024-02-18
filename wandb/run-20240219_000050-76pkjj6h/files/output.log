@@ -1,0 +1,23 @@
+trainiable_params: 4216602, non_trainable_params: 0, total_params: 4216602
+val_fold:  2
+
+
+
+
+
+
+
+
+100%|██████████| 8/8 [01:17<00:00,  9.63s/it]
+epoch: 0, train: {'accuracy': 0.12083333333333333, 'loss': 2.339016850789388}, valid: {'accuracy': 0.1770833283662796, 'loss': 2.284067392349243}
+
+
+
+
+
+
+
+
+100%|██████████| 8/8 [01:17<00:00,  9.72s/it]
+epoch: 1, train: {'accuracy': 0.11666666666666667, 'loss': 2.3443260351816813}, valid: {'accuracy': 0.09375, 'loss': 2.3672826290130615}
+test_accuracy: 0.1354166716337204, test_loss: 2.325502634048462
