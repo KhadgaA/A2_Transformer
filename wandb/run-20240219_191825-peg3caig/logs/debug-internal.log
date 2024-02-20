@@ -1,0 +1,1080 @@
+2024-02-19 19:18:26,374 INFO    StreamThr :90285 [internal.py:wandb_internal():86] W&B internal server running at pid: 90285, started at: 2024-02-19 19:18:26.374201
+2024-02-19 19:18:26,375 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status
+2024-02-19 19:18:26,376 INFO    WriterThread:90285 [datastore.py:open_for_write():87] open: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/run-peg3caig.wandb
+2024-02-19 19:18:26,377 DEBUG   SenderThread:90285 [sender.py:send():382] send: header
+2024-02-19 19:18:26,377 DEBUG   SenderThread:90285 [sender.py:send():382] send: run
+2024-02-19 19:18:26,566 INFO    SenderThread:90285 [dir_watcher.py:__init__():211] watching files in: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files
+2024-02-19 19:18:26,567 INFO    SenderThread:90285 [sender.py:_start_run_threads():1136] run started: peg3caig with start time 1708370305.439814
+2024-02-19 19:18:26,576 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: check_version
+2024-02-19 19:18:26,577 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: check_version
+2024-02-19 19:18:26,648 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: run_start
+2024-02-19 19:18:26,649 DEBUG   HandlerThread:90285 [system_info.py:__init__():27] System info init
+2024-02-19 19:18:26,649 DEBUG   HandlerThread:90285 [system_info.py:__init__():42] System info init done
+2024-02-19 19:18:26,649 INFO    HandlerThread:90285 [system_monitor.py:start():194] Starting system monitor
+2024-02-19 19:18:26,649 INFO    SystemMonitor:90285 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-19 19:18:26,649 INFO    HandlerThread:90285 [system_monitor.py:probe():214] Collecting system info
+2024-02-19 19:18:26,650 INFO    SystemMonitor:90285 [interfaces.py:start():190] Started cpu monitoring
+2024-02-19 19:18:26,650 INFO    SystemMonitor:90285 [interfaces.py:start():190] Started disk monitoring
+2024-02-19 19:18:26,651 INFO    SystemMonitor:90285 [interfaces.py:start():190] Started gpu monitoring
+2024-02-19 19:18:26,651 INFO    SystemMonitor:90285 [interfaces.py:start():190] Started memory monitoring
+2024-02-19 19:18:26,652 INFO    SystemMonitor:90285 [interfaces.py:start():190] Started network monitoring
+2024-02-19 19:18:26,673 DEBUG   HandlerThread:90285 [system_info.py:probe():151] Probing system
+2024-02-19 19:18:26,673 DEBUG   HandlerThread:90285 [system_info.py:_probe_git():136] Probing git
+2024-02-19 19:18:26,688 DEBUG   HandlerThread:90285 [system_info.py:_probe_git():144] Probing git done
+2024-02-19 19:18:26,688 DEBUG   HandlerThread:90285 [system_info.py:probe():199] Probing system done
+2024-02-19 19:18:26,688 DEBUG   HandlerThread:90285 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-1053-aws-x86_64-with-glibc2.31', 'python': '3.10.10', 'heartbeatAt': '2024-02-19T19:18:26.673294', 'startedAt': '2024-02-19T19:18:25.430719', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'A2_Transformer/M23CSA003.ipynb', 'codePathLocal': None, 'root': '/teamspace/studios/this_studio/A2_Transformer', 'git': {'remote': 'git@github.com:KhadgaA/A2_Transformer.git', 'commit': 'f49d667a79002d681f32ce057d2fb26024c8839b'}, 'email': 'khadgajyothalli@gmail.com', 'host': 'ip-10-192-10-82', 'username': 'zeus', 'executable': '/home/zeus/miniconda3/envs/cloudspace/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2574.7347499999996, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2499.996, 'min': 0.0, 'max': 0.0}, {'current': 2499.996, 'min': 0.0, 'max': 0.0}, {'current': 2499.996, 'min': 0.0, 'max': 0.0}, {'current': 2499.996, 'min': 0.0, 'max': 0.0}, {'current': 2499.996, 'min': 0.0, 'max': 0.0}, {'current': 2499.996, 'min': 0.0, 'max': 0.0}, {'current': 2499.996, 'min': 0.0, 'max': 0.0}, {'current': 3097.906, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 387.4823341369629, 'used': 54.548667907714844}}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 16106127360}], 'memory': {'total': 30.887256622314453}}
+2024-02-19 19:18:26,688 INFO    HandlerThread:90285 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-19 19:18:26,688 INFO    HandlerThread:90285 [system_monitor.py:probe():227] Publishing system info
+2024-02-19 19:18:26,688 DEBUG   HandlerThread:90285 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-19 19:18:27,569 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/conda-environment.yaml
+2024-02-19 19:18:30,306 DEBUG   HandlerThread:90285 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-19 19:18:30,306 INFO    HandlerThread:90285 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-19 19:18:30,307 DEBUG   SenderThread:90285 [sender.py:send():382] send: files
+2024-02-19 19:18:30,307 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-19 19:18:30,321 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-19 19:18:30,322 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: python_packages
+2024-02-19 19:18:30,324 DEBUG   SenderThread:90285 [sender.py:send():382] send: telemetry
+2024-02-19 19:18:30,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:18:30,327 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:18:30,328 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:18:30,444 DEBUG   SenderThread:90285 [sender.py:send():382] send: config
+2024-02-19 19:18:30,547 INFO    wandb-upload_0:90285 [upload_job.py:push():131] Uploaded file /tmp/tmp25uvsllgwandb/w5w7ervw-wandb-metadata.json
+2024-02-19 19:18:30,568 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/conda-environment.yaml
+2024-02-19 19:18:30,568 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:30,568 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-metadata.json
+2024-02-19 19:18:30,568 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/requirements.txt
+2024-02-19 19:18:31,684 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:18:32,568 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:33,994 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:18:33,995 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:18:33,996 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:18:33,996 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:18:34,569 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:34,570 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:18:36,570 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:37,019 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:18:37,668 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:18:37,669 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:18:37,669 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:18:37,670 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:18:38,570 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:38,571 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:18:40,571 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:41,354 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:18:41,355 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:18:41,355 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:18:41,356 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:18:41,571 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:18:42,189 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:18:42,572 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:44,572 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:44,985 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:18:44,986 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:18:44,986 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:18:44,987 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:18:45,322 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:18:45,323 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:18:45,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:18:45,573 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:18:46,573 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:47,539 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:18:48,574 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:48,585 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:18:48,586 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:18:48,586 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:18:48,586 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:18:49,574 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:18:50,575 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:52,224 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:18:52,226 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:18:52,226 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:18:52,226 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:18:52,575 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:52,576 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:18:52,633 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:18:54,576 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:55,869 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:18:55,870 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:18:55,870 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:18:55,871 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:18:56,577 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:56,577 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:18:57,969 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:18:58,577 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:18:58,578 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/config.yaml
+2024-02-19 19:18:59,492 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:18:59,493 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:18:59,493 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:18:59,494 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:18:59,578 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:00,322 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:19:00,323 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:19:00,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:19:00,578 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:02,579 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:03,165 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:19:03,165 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:03,166 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:03,166 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:03,167 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:03,579 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:04,579 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:06,580 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:06,848 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:06,850 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:06,850 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:06,850 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:07,580 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:08,507 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:19:08,581 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:10,514 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:10,515 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:10,515 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:10,516 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:10,581 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:10,582 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:12,582 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:13,654 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:19:14,125 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:14,126 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:14,126 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:14,127 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:14,583 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:14,583 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:15,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:19:15,323 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:19:15,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:19:16,583 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:17,801 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:17,802 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:17,802 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:17,802 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:18,584 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:18,584 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:19,056 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:19:20,585 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:21,508 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:21,510 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:21,510 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:21,511 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:21,585 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:22,585 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:24,388 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:19:24,586 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:25,101 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:25,102 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:25,102 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:25,103 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:25,586 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:26,587 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:26,652 DEBUG   SystemMonitor:90285 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-19 19:19:26,653 DEBUG   SenderThread:90285 [sender.py:send():382] send: stats
+2024-02-19 19:19:28,588 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:28,703 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:28,703 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:28,704 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:28,704 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:29,536 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:19:29,588 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:30,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:19:30,323 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:19:30,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:19:30,588 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:32,317 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:32,318 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:32,318 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:32,319 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:32,589 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:32,589 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:34,590 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:34,836 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:19:35,986 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:35,987 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:35,987 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:35,987 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:36,590 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:36,591 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:38,591 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:39,574 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:39,575 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:39,576 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:39,576 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:39,591 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:40,004 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:19:40,592 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:42,592 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:43,183 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:43,184 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:43,184 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:43,185 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:43,593 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:44,593 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:45,302 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:19:45,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:19:45,323 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:19:45,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:19:46,594 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:46,842 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:46,842 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:46,843 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:46,843 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:47,594 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:48,594 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:50,470 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:19:50,470 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:50,472 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:50,473 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:50,473 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:50,595 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:50,595 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:52,596 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:54,047 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:54,048 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:54,048 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:54,049 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:54,596 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:54,597 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:19:55,779 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:19:56,597 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:56,654 DEBUG   SenderThread:90285 [sender.py:send():382] send: stats
+2024-02-19 19:19:57,699 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:19:57,701 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:19:57,701 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:19:57,702 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:19:58,598 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:19:58,598 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:00,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:20:00,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:20:00,324 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:20:00,598 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:00,912 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:20:01,400 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:01,401 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:01,402 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:01,402 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:01,599 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:02,599 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:04,600 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:05,030 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:05,032 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:05,032 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:05,033 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:05,600 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:06,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:20:06,600 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:08,601 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:08,613 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:08,613 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:08,614 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:08,614 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:09,601 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:10,602 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:11,625 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:20:12,283 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:12,284 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:12,284 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:12,285 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:12,602 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:12,603 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:14,603 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:15,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:20:15,324 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:20:15,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:20:15,952 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:15,953 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:15,953 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:15,954 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:16,604 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:16,604 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:16,793 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:20:18,604 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:19,526 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:19,528 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:19,528 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:19,529 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:19,605 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:20,605 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:22,086 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:20:22,605 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:23,145 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:23,146 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:23,146 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:23,147 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:23,606 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:24,606 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:26,607 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:26,655 DEBUG   SenderThread:90285 [sender.py:send():382] send: stats
+2024-02-19 19:20:26,813 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:26,814 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:26,814 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:26,815 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:27,242 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:20:27,607 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:28,608 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:30,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:20:30,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:20:30,324 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:20:30,544 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:30,545 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:30,545 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:30,546 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:30,608 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:30,609 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:32,609 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:32,620 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:20:34,104 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:34,105 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:34,105 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:34,106 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:34,610 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:34,610 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:36,610 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:37,814 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:37,814 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:20:37,815 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:37,815 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:37,816 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:38,611 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:38,611 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:40,612 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:41,533 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:41,535 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:41,535 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:41,536 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:41,612 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:42,612 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:43,169 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:20:44,613 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:45,147 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:45,148 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:45,148 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:45,149 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:45,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:20:45,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:20:45,324 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:20:45,613 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:46,614 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:48,300 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:20:48,614 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:48,737 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:48,738 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:48,738 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:48,739 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:49,614 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:50,615 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:52,418 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:52,419 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:52,420 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:52,420 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:52,617 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:53,616 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:53,650 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:20:55,617 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:56,069 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:56,069 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:56,069 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:56,070 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:20:56,617 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:20:56,655 DEBUG   SenderThread:90285 [sender.py:send():382] send: stats
+2024-02-19 19:20:57,617 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:59,035 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:20:59,618 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:20:59,760 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:20:59,761 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:20:59,761 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:20:59,762 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:00,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:21:00,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:21:00,324 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:21:00,618 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:01,619 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:03,378 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:03,379 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:03,379 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:03,380 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:03,620 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:03,621 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:04,203 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:21:05,621 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:07,022 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:07,024 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:07,024 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:07,025 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:07,622 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:07,622 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:09,501 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:21:09,622 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:10,658 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:10,659 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:10,659 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:10,660 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:11,623 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:11,625 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:13,624 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:14,260 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:14,261 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:14,261 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:14,262 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:14,624 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:14,700 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:21:15,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:21:15,325 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:21:15,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:21:15,624 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:17,625 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:17,922 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:17,923 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:17,923 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:17,924 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:18,626 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:19,626 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:20,012 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:21:21,594 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:21,596 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:21,596 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:21,597 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:21,627 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:21,627 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:23,627 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:25,209 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:21:25,209 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:25,211 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:25,211 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:25,211 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:25,628 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:25,628 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:26,656 DEBUG   SenderThread:90285 [sender.py:send():382] send: stats
+2024-02-19 19:21:27,629 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:28,825 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:28,827 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:28,827 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:28,828 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:29,629 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:29,630 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:30,323 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:21:30,324 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:21:30,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:21:30,468 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:21:31,630 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:32,530 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:32,530 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:32,531 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:32,531 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:32,631 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:33,631 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:35,470 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:21:35,632 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:36,190 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:36,193 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:36,193 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:36,194 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:36,632 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:37,632 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:39,633 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:39,813 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:39,814 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:39,814 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:39,815 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:40,633 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:40,704 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:21:41,634 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:43,454 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:43,455 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:43,456 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:43,456 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:43,634 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:43,635 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:45,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:21:45,324 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:21:45,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:21:45,635 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:46,043 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:21:47,126 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:47,126 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:47,127 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:47,127 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:47,636 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:47,636 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:49,637 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:50,786 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:50,787 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:50,787 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:50,788 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:51,230 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:21:51,637 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:51,638 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:53,638 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:54,460 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:54,461 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:54,461 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:54,462 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:54,638 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:55,639 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:56,650 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:21:56,656 DEBUG   SenderThread:90285 [sender.py:send():382] send: stats
+2024-02-19 19:21:57,639 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:21:58,145 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:21:58,146 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:21:58,146 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:21:58,147 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:21:58,640 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:21:59,640 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:00,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:22:00,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:22:00,325 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:22:01,641 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:01,799 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:01,800 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:22:01,800 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:01,800 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:01,801 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:02,641 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:03,641 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:05,482 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:05,483 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:05,483 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:05,484 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:05,642 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:05,642 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:07,184 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:22:07,643 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:09,076 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:09,077 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:09,077 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:09,077 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:09,644 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:09,644 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:11,644 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:12,281 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:22:12,715 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:12,716 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:12,716 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:12,717 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:13,645 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:13,645 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:15,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:22:15,325 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:22:15,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:22:15,645 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:16,411 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:16,413 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:16,413 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:16,414 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:16,646 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:17,640 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:22:17,646 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:19,647 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:20,044 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:20,045 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:20,045 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:20,046 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:20,647 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:21,647 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:23,004 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:22:23,648 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:23,651 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:23,652 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:23,652 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:23,653 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:24,648 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:25,649 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:26,657 DEBUG   SenderThread:90285 [sender.py:send():382] send: stats
+2024-02-19 19:22:27,303 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:27,304 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:27,304 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:27,305 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:27,649 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:27,650 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:28,126 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:22:29,650 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:30,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:22:30,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:22:30,325 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:22:30,970 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:31,650 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:32,115 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:32,116 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:32,116 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:32,651 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:33,460 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:22:33,651 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:34,593 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:34,593 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:34,594 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:34,594 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:34,652 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:35,652 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:37,652 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:38,248 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:38,249 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:38,249 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:38,250 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:38,653 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:38,657 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:22:39,653 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:41,654 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:41,906 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:41,907 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:41,907 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:41,908 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:42,654 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:43,655 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:43,954 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:22:45,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:22:45,324 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:22:45,327 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:22:45,588 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:45,589 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:45,590 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:45,590 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:45,655 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:45,656 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:47,656 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:49,179 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:22:49,180 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:49,181 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:49,181 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:49,184 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:49,657 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:49,657 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:51,657 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:52,829 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:52,830 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:52,830 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:52,831 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:53,658 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:53,658 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:54,505 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:22:55,659 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:56,515 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:22:56,516 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:22:56,517 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:22:56,517 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:22:56,657 DEBUG   SenderThread:90285 [sender.py:send():382] send: stats
+2024-02-19 19:22:56,659 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:22:57,659 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:22:59,638 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:22:59,660 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:00,120 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:00,123 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:00,123 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:00,123 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:00,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:23:00,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:23:00,326 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:23:00,660 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:01,661 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:03,661 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:03,726 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:03,727 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:03,727 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:03,727 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:04,662 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:05,012 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:23:05,662 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:07,390 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:07,395 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:07,396 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:07,396 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:07,663 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:07,663 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:09,663 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:10,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:23:11,053 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:11,054 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:11,054 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:11,055 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:11,664 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:11,665 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:13,665 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:14,666 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:14,667 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:14,667 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:14,668 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:15,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:23:15,325 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:23:15,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:23:15,394 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:23:15,665 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:15,666 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:17,666 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:18,281 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:18,282 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:18,282 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:18,282 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:18,666 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:19,667 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:20,408 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:23:21,667 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:21,942 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:21,943 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:21,943 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:21,944 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:22,668 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:23,668 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:25,588 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:23:25,589 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:25,590 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:25,590 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:25,591 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:25,669 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:25,669 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:26,657 DEBUG   SenderThread:90285 [sender.py:send():382] send: stats
+2024-02-19 19:23:27,669 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:29,211 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:29,212 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:29,213 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:29,213 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:29,670 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:29,670 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:30,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:23:30,325 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:23:30,327 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:23:31,576 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:23:31,670 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:32,860 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:32,861 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:32,861 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:32,862 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:33,671 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:33,671 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:35,672 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:36,518 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:36,519 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:36,520 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:36,520 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:36,672 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:36,924 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:23:37,672 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:39,673 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:40,107 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:40,107 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:40,108 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:40,108 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:40,673 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:41,673 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:42,239 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:23:43,674 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:43,721 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:43,721 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:43,722 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:43,722 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:44,674 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:45,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:23:45,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:23:45,325 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:23:45,675 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:47,379 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:47,380 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:23:47,380 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:47,380 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:47,381 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:47,675 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:47,676 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:49,676 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:51,049 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:51,050 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:51,050 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:51,051 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:51,677 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:51,677 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:52,721 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:23:53,677 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:54,658 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:54,658 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:54,659 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:54,659 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:54,678 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:55,678 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:56,658 DEBUG   SenderThread:90285 [sender.py:send():382] send: stats
+2024-02-19 19:23:57,679 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:23:57,822 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:23:58,281 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:23:58,282 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:23:58,282 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:23:58,283 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:23:58,679 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:23:59,679 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:00,324 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:24:00,325 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:24:00,327 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:24:01,680 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:01,975 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:24:01,977 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:24:01,977 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:01,977 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:02,680 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:24:03,212 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:24:03,680 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:05,661 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:24:05,662 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:24:05,662 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:05,663 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:05,681 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:05,682 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:24:07,682 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:08,599 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:24:09,280 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:24:09,281 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:24:09,281 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:09,282 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:09,683 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:09,683 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:24:11,683 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:12,924 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:24:12,925 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:24:12,925 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:12,926 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:13,684 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:13,684 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:24:13,762 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:24:15,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:24:15,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:24:15,325 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:24:15,684 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:16,595 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:24:16,596 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:24:16,597 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:16,597 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:16,685 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:24:17,685 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:19,057 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:24:19,686 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:20,195 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:24:20,197 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:24:20,197 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:20,198 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:20,686 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:24:21,686 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:23,687 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:23,792 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:24:23,792 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:24:23,793 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:23,793 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:24,207 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:24:24,687 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:24:25,688 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:26,659 DEBUG   SenderThread:90285 [sender.py:send():382] send: stats
+2024-02-19 19:24:27,445 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:24:27,445 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:24:27,446 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:27,446 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:27,688 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:27,688 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:24:29,507 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:24:29,689 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:30,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 19:24:30,325 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 19:24:30,325 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:24:31,073 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:24:31,075 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:24:31,075 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:31,076 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:31,690 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:31,690 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:24:33,690 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:34,676 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:24:34,677 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:24:34,677 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:24:34,678 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:34,678 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:34,690 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:24:35,170 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:35,171 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:35,171 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:35,172 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:35,192 DEBUG   SenderThread:90285 [sender.py:send():382] send: config
+2024-02-19 19:24:35,299 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: log_artifact
+2024-02-19 19:24:35,299 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: log_artifact
+2024-02-19 19:24:35,314 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:24:35,418 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: log_artifact
+2024-02-19 19:24:35,431 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:24:35,515 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: log_artifact
+2024-02-19 19:24:35,525 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 19:24:35,550 INFO    SenderThread:90285 [sender.py:send_request_log_artifact():1470] logged artifact run-peg3caig-pr_table - {'id': 'QXJ0aWZhY3Q6NzI2MDY4Mjcw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTE4ODMzMw==', 'latestArtifact': None}}
+2024-02-19 19:24:35,550 DEBUG   SenderThread:90285 [sender.py:send():382] send: files
+2024-02-19 19:24:35,550 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file media/table/pr_table_100_c30d54cd3407dbb27332.table.json with policy now
+2024-02-19 19:24:35,551 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:24:35,551 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:35,552 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:35,552 DEBUG   SenderThread:90285 [sender.py:send():382] send: config
+2024-02-19 19:24:35,552 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: log_artifact
+2024-02-19 19:24:35,691 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:35,691 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:24:35,692 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/media/table/roc_table_101_ea76581d73d619a0d303.table.json
+2024-02-19 19:24:35,692 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/media/table/conf_mat_table_102_764d304e917221f39142.table.json
+2024-02-19 19:24:35,692 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/media/table/pr_table_100_c30d54cd3407dbb27332.table.json
+2024-02-19 19:24:35,693 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/media/table
+2024-02-19 19:24:35,693 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/media
+2024-02-19 19:24:35,752 INFO    SenderThread:90285 [sender.py:send_request_log_artifact():1470] logged artifact run-peg3caig-roc_table - {'id': 'QXJ0aWZhY3Q6NzI2MDY4Mjc0', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTE4ODMzNQ==', 'latestArtifact': None}}
+2024-02-19 19:24:35,753 DEBUG   SenderThread:90285 [sender.py:send():382] send: files
+2024-02-19 19:24:35,753 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file media/table/roc_table_101_ea76581d73d619a0d303.table.json with policy now
+2024-02-19 19:24:35,754 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:24:35,754 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:35,754 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:35,755 DEBUG   SenderThread:90285 [sender.py:send():382] send: config
+2024-02-19 19:24:35,755 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: log_artifact
+2024-02-19 19:24:35,759 INFO    wandb-upload_1:90285 [upload_job.py:push():131] Uploaded file /tmp/tmp25uvsllgwandb/3visvcqa-media/table/pr_table_100_c30d54cd3407dbb27332.table.json
+2024-02-19 19:24:35,814 INFO    wandb-upload_0:90285 [upload_job.py:push():89] Uploaded file /teamspace/studios/this_studio/.local/share/wandb/artifacts/staging/tmp9b0lpuxz
+2024-02-19 19:24:35,894 INFO    wandb-upload_2:90285 [upload_job.py:push():131] Uploaded file /tmp/tmp25uvsllgwandb/nv0y2qde-media/table/roc_table_101_ea76581d73d619a0d303.table.json
+2024-02-19 19:24:35,895 INFO    wandb-upload_3:90285 [upload_job.py:push():131] Uploaded file /tmp/tmp25uvsllgwandb/aa48gv29-media/table/conf_mat_table_102_764d304e917221f39142.table.json
+2024-02-19 19:24:35,935 INFO    SenderThread:90285 [sender.py:send_request_log_artifact():1470] logged artifact run-peg3caig-conf_mat_table - {'id': 'QXJ0aWZhY3Q6NzI2MDY4Mjc3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTE4ODMzNg==', 'latestArtifact': None}}
+2024-02-19 19:24:35,935 DEBUG   SenderThread:90285 [sender.py:send():382] send: files
+2024-02-19 19:24:35,935 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file media/table/conf_mat_table_102_764d304e917221f39142.table.json with policy now
+2024-02-19 19:24:35,936 DEBUG   SenderThread:90285 [sender.py:send():382] send: history
+2024-02-19 19:24:35,936 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:35,937 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:35,937 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:35,938 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:35,938 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:35,939 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:35,939 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 19:24:35,941 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:35,941 DEBUG   SenderThread:90285 [sender.py:send():382] send: telemetry
+2024-02-19 19:24:35,941 DEBUG   SenderThread:90285 [sender.py:send():382] send: exit
+2024-02-19 19:24:35,941 INFO    SenderThread:90285 [sender.py:send_exit():589] handling exit code: 0
+2024-02-19 19:24:35,941 INFO    SenderThread:90285 [sender.py:send_exit():591] handling runtime: 368
+2024-02-19 19:24:35,942 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:35,943 INFO    SenderThread:90285 [sender.py:send_exit():597] send defer
+2024-02-19 19:24:35,943 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:35,943 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-19 19:24:35,943 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:35,943 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-19 19:24:35,943 INFO    SenderThread:90285 [sender.py:transition_state():617] send defer: 1
+2024-02-19 19:24:35,943 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:35,944 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-19 19:24:35,944 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:35,944 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-19 19:24:35,944 INFO    SenderThread:90285 [sender.py:transition_state():617] send defer: 2
+2024-02-19 19:24:35,944 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:35,944 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-19 19:24:35,944 INFO    HandlerThread:90285 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-19 19:24:35,944 DEBUG   SystemMonitor:90285 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-19 19:24:35,945 INFO    HandlerThread:90285 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-19 19:24:35,945 DEBUG   SystemMonitor:90285 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-19 19:24:35,945 INFO    HandlerThread:90285 [interfaces.py:finish():202] Joined disk monitor
+2024-02-19 19:24:35,956 INFO    HandlerThread:90285 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-19 19:24:35,956 INFO    HandlerThread:90285 [interfaces.py:finish():202] Joined memory monitor
+2024-02-19 19:24:35,956 INFO    HandlerThread:90285 [interfaces.py:finish():202] Joined network monitor
+2024-02-19 19:24:35,957 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:35,957 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-19 19:24:35,957 INFO    SenderThread:90285 [sender.py:transition_state():617] send defer: 3
+2024-02-19 19:24:35,957 DEBUG   SenderThread:90285 [sender.py:send():382] send: stats
+2024-02-19 19:24:35,957 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:35,958 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-19 19:24:35,958 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:35,958 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-19 19:24:35,958 INFO    SenderThread:90285 [sender.py:transition_state():617] send defer: 4
+2024-02-19 19:24:35,958 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:35,958 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-19 19:24:35,958 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:35,959 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-19 19:24:35,959 INFO    SenderThread:90285 [sender.py:transition_state():617] send defer: 5
+2024-02-19 19:24:35,959 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:35,959 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-19 19:24:35,959 DEBUG   SenderThread:90285 [sender.py:send():382] send: summary
+2024-02-19 19:24:35,960 INFO    SenderThread:90285 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 19:24:35,960 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:35,960 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-19 19:24:35,960 INFO    SenderThread:90285 [sender.py:transition_state():617] send defer: 6
+2024-02-19 19:24:35,960 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:35,960 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-19 19:24:35,961 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:35,961 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-19 19:24:35,965 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 19:24:36,020 INFO    wandb-upload_4:90285 [upload_job.py:push():89] Uploaded file /teamspace/studios/this_studio/.local/share/wandb/artifacts/staging/tmps_03uvyr
+2024-02-19 19:24:36,028 INFO    wandb-upload_1:90285 [upload_job.py:push():131] Uploaded file /tmp/tmp25uvsllgwandb/4bpz5ns0-media/table/pr_table_100_c30d54cd3407dbb27332.table.json
+2024-02-19 19:24:36,035 INFO    SenderThread:90285 [sender.py:transition_state():617] send defer: 7
+2024-02-19 19:24:36,036 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:36,036 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-19 19:24:36,036 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:36,036 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-19 19:24:36,525 INFO    wandb-upload_2:90285 [upload_job.py:push():89] Uploaded file /teamspace/studios/this_studio/.local/share/wandb/artifacts/staging/tmp9cyer3p9
+2024-02-19 19:24:36,535 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 19:24:36,543 INFO    wandb-upload_0:90285 [upload_job.py:push():131] Uploaded file /tmp/tmp25uvsllgwandb/z55z5mck-media/table/roc_table_101_ea76581d73d619a0d303.table.json
+2024-02-19 19:24:36,654 INFO    wandb-upload_3:90285 [upload_job.py:push():131] Uploaded file /tmp/tmp25uvsllgwandb/8oza0bsy-media/table/conf_mat_table_102_764d304e917221f39142.table.json
+2024-02-19 19:24:36,691 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:24:36,692 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/config.yaml
+2024-02-19 19:24:37,692 INFO    Thread-58 :90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:38,883 INFO    SenderThread:90285 [sender.py:transition_state():617] send defer: 8
+2024-02-19 19:24:38,883 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 19:24:38,883 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:38,884 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-19 19:24:38,884 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:38,884 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-19 19:24:38,884 INFO    SenderThread:90285 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-19 19:24:38,886 INFO    SenderThread:90285 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-02-19 19:24:38,886 INFO    SenderThread:90285 [job_builder.py:_get_program_relpath():444] run is notebook based run
+2024-02-19 19:24:38,887 INFO    SenderThread:90285 [job_builder.py:build():402] adding wandb-job metadata file
+2024-02-19 19:24:38,894 INFO    SenderThread:90285 [sender.py:transition_state():617] send defer: 9
+2024-02-19 19:24:38,894 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:38,894 DEBUG   SenderThread:90285 [sender.py:send():382] send: artifact
+2024-02-19 19:24:38,894 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-19 19:24:39,130 INFO    SenderThread:90285 [sender.py:send_artifact():1494] sent artifact job-git_github.com_KhadgaA_A2_Transformer.git_A2_Transformer_M23CSA003.ipynb - {'id': 'QXJ0aWZhY3Q6NzI1OTg4NzUy', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTE2MDI1NA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzI1OTg4NzUy', 'versionIndex': 0}}}
+2024-02-19 19:24:39,130 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:39,130 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-19 19:24:39,130 INFO    SenderThread:90285 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-19 19:24:39,536 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 19:24:39,693 INFO    SenderThread:90285 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:39,693 INFO    SenderThread:90285 [dir_watcher.py:finish():388] scan: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files
+2024-02-19 19:24:39,693 INFO    SenderThread:90285 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log output.log
+2024-02-19 19:24:39,694 INFO    SenderThread:90285 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/requirements.txt requirements.txt
+2024-02-19 19:24:39,694 INFO    SenderThread:90285 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json wandb-summary.json
+2024-02-19 19:24:39,696 INFO    SenderThread:90285 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-metadata.json wandb-metadata.json
+2024-02-19 19:24:39,698 INFO    SenderThread:90285 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/config.yaml config.yaml
+2024-02-19 19:24:39,701 INFO    SenderThread:90285 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/conda-environment.yaml conda-environment.yaml
+2024-02-19 19:24:39,706 INFO    SenderThread:90285 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/media/table/conf_mat_table_102_764d304e917221f39142.table.json media/table/conf_mat_table_102_764d304e917221f39142.table.json
+2024-02-19 19:24:39,706 INFO    SenderThread:90285 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/media/table/pr_table_100_c30d54cd3407dbb27332.table.json media/table/pr_table_100_c30d54cd3407dbb27332.table.json
+2024-02-19 19:24:39,706 INFO    SenderThread:90285 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/media/table/roc_table_101_ea76581d73d619a0d303.table.json media/table/roc_table_101_ea76581d73d619a0d303.table.json
+2024-02-19 19:24:39,706 INFO    SenderThread:90285 [sender.py:transition_state():617] send defer: 10
+2024-02-19 19:24:39,707 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 19:24:39,707 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:39,707 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-19 19:24:39,707 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:39,707 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-19 19:24:39,708 INFO    SenderThread:90285 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-19 19:24:39,868 INFO    wandb-upload_3:90285 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/wandb-summary.json
+2024-02-19 19:24:39,878 INFO    wandb-upload_1:90285 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/output.log
+2024-02-19 19:24:39,900 INFO    wandb-upload_0:90285 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/config.yaml
+2024-02-19 19:24:39,907 INFO    wandb-upload_4:90285 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/conda-environment.yaml
+2024-02-19 19:24:39,918 INFO    wandb-upload_2:90285 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/files/requirements.txt
+2024-02-19 19:24:40,119 INFO    Thread-57 (_thread_body):90285 [sender.py:transition_state():617] send defer: 11
+2024-02-19 19:24:40,120 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:40,120 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-19 19:24:40,120 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:40,120 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-19 19:24:40,120 INFO    SenderThread:90285 [file_pusher.py:join():178] waiting for file pusher
+2024-02-19 19:24:40,121 INFO    SenderThread:90285 [sender.py:transition_state():617] send defer: 12
+2024-02-19 19:24:40,122 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:40,122 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-19 19:24:40,122 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:40,122 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-19 19:24:40,122 INFO    SenderThread:90285 [file_stream.py:finish():595] file stream finish called
+2024-02-19 19:24:40,350 INFO    SenderThread:90285 [file_stream.py:finish():599] file stream finish is done
+2024-02-19 19:24:40,350 INFO    SenderThread:90285 [sender.py:transition_state():617] send defer: 13
+2024-02-19 19:24:40,350 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:40,350 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-19 19:24:40,351 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:40,351 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-19 19:24:40,351 INFO    SenderThread:90285 [sender.py:transition_state():617] send defer: 14
+2024-02-19 19:24:40,351 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 19:24:40,351 DEBUG   SenderThread:90285 [sender.py:send():382] send: final
+2024-02-19 19:24:40,352 INFO    HandlerThread:90285 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-19 19:24:40,352 DEBUG   SenderThread:90285 [sender.py:send():382] send: footer
+2024-02-19 19:24:40,352 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: defer
+2024-02-19 19:24:40,352 INFO    SenderThread:90285 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-19 19:24:40,353 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 19:24:40,353 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 19:24:40,355 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 19:24:40,356 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: server_info
+2024-02-19 19:24:40,356 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: server_info
+2024-02-19 19:24:40,396 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-19 19:24:40,396 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-19 19:24:40,398 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: job_info
+2024-02-19 19:24:40,400 DEBUG   SenderThread:90285 [sender.py:send_request():409] send_request: job_info
+2024-02-19 19:24:40,444 DEBUG   HandlerThread:90285 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-19 19:24:40,444 INFO    HandlerThread:90285 [handler.py:finish():869] shutting down handler
+2024-02-19 19:24:41,398 INFO    WriterThread:90285 [datastore.py:close():296] close: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_191825-peg3caig/run-peg3caig.wandb
+2024-02-19 19:24:41,400 INFO    SenderThread:90285 [sender.py:finish():1572] shutting down sender
+2024-02-19 19:24:41,400 INFO    SenderThread:90285 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-19 19:24:41,400 INFO    SenderThread:90285 [file_pusher.py:join():178] waiting for file pusher

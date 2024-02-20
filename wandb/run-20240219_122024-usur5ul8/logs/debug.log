@@ -1,0 +1,284 @@
+2024-02-19 12:20:24,138 INFO    Thread-19 (_run_job):12090 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-19 12:20:24,139 INFO    Thread-19 (_run_job):12090 [wandb_setup.py:_flush():76] Configure stats pid to 12090
+2024-02-19 12:20:24,139 INFO    Thread-19 (_run_job):12090 [wandb_setup.py:_flush():76] Loading settings from /teamspace/studios/this_studio/.config/wandb/settings
+2024-02-19 12:20:24,139 INFO    Thread-19 (_run_job):12090 [wandb_setup.py:_flush():76] Loading settings from /teamspace/studios/this_studio/A2_Transformer/wandb/settings
+2024-02-19 12:20:24,139 INFO    Thread-19 (_run_job):12090 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'DL_A2_Arch2', 'entity': 'khadgaa'}
+2024-02-19 12:20:24,139 INFO    Thread-19 (_run_job):12090 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-19 12:20:24,139 INFO    Thread-19 (_run_job):12090 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-02-19 12:20:24,140 INFO    Thread-19 (_run_job):12090 [wandb_init.py:_log_setup():526] Logging user logs to /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_122024-usur5ul8/logs/debug.log
+2024-02-19 12:20:24,140 INFO    Thread-19 (_run_job):12090 [wandb_init.py:_log_setup():527] Logging internal logs to /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_122024-usur5ul8/logs/debug-internal.log
+2024-02-19 12:20:24,140 INFO    Thread-19 (_run_job):12090 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f75a66b3f40>
+2024-02-19 12:20:24,140 INFO    Thread-19 (_run_job):12090 [wandb_init.py:init():566] calling init triggers
+2024-02-19 12:20:24,140 INFO    Thread-19 (_run_job):12090 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'dk': 32, 'dv': 32, 'epochs': 100, 'features_length': 16, 'learning_rate': 0.006373656832018268, 'num_blocks': 2, 'num_heads': 2, 'optimizer': 'sgd'}
+2024-02-19 12:20:24,140 INFO    Thread-19 (_run_job):12090 [wandb_init.py:init():616] starting backend
+2024-02-19 12:20:24,140 INFO    Thread-19 (_run_job):12090 [wandb_init.py:init():620] setting up manager
+2024-02-19 12:20:24,144 INFO    Thread-19 (_run_job):12090 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-02-19 12:20:24,144 INFO    Thread-19 (_run_job):12090 [wandb_init.py:init():628] backend started and connected
+2024-02-19 12:20:24,157 INFO    Thread-19 (_run_job):12090 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-02-19 12:20:24,158 INFO    Thread-19 (_run_job):12090 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-02-19 12:20:24,158 INFO    Thread-19 (_run_job):12090 [wandb_init.py:init():720] updated telemetry
+2024-02-19 12:20:24,166 INFO    Thread-19 (_run_job):12090 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-19 12:20:24,370 INFO    Thread-19 (_run_job):12090 [wandb_run.py:_on_init():2262] communicating current version
+2024-02-19 12:20:24,399 INFO    Thread-19 (_run_job):12090 [wandb_run.py:_on_init():2271] got version response 
+2024-02-19 12:20:24,399 INFO    Thread-19 (_run_job):12090 [wandb_init.py:init():804] starting run threads in backend
+2024-02-19 12:20:28,653 INFO    Thread-19 (_run_job):12090 [wandb_run.py:_finish():1970] finishing run khadgaa/DL_A2_Arch2/usur5ul8
+2024-02-19 12:20:28,655 INFO    Thread-19 (_run_job):12090 [jupyter.py:save_history():445] not saving jupyter history
+2024-02-19 12:20:28,655 INFO    Thread-19 (_run_job):12090 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-02-19 12:20:28,655 INFO    Thread-19 (_run_job):12090 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-02-19 12:20:28,655 INFO    Thread-19 (_run_job):12090 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-02-19 12:20:28,655 INFO    Thread-19 (_run_job):12090 [wandb_run.py:_restore():2193] restore
+2024-02-19 12:20:28,655 INFO    Thread-19 (_run_job):12090 [wandb_run.py:_restore():2199] restore done
+2024-02-19 12:20:29,979 ERROR   Thread-19 (_run_job):12090 [ipython.py:update():120] Socket operation on non-socket
+Traceback (most recent call last):
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 846, in init
+    run._on_start()
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2280, in _on_start
+    self._header(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3459, in _header
+    Run._header_wandb_version_info(settings=settings, printer=printer)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3492, in _header_wandb_version_info
+    printer.display(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/lib/printer.py", line 68, in display
+    self._display(text, level=level, default_text=default_text)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/lib/printer.py", line 248, in _display
+    self._display_fn_mapping(level)(text)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/lib/ipython.py", line 81, in display_html
+    return display(HTML(html))
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/IPython/core/display_functions.py", line 305, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/IPython/core/display_functions.py", line 93, in publish_display_data
+    display_pub.publish(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 483, in publish
+    ipython.display_pub._orig_publish(data, metadata=metadata, **kwargs)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/zmqshell.py", line 103, in publish
+    self._flush_streams()
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/zmqshell.py", line 66, in _flush_streams
+    sys.stdout.flush()
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 604, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1184, in init
+    getcaller()
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 855, in getcaller
+    print("Problem at:", src, line, func)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 694, in write
+    self._schedule_flush()
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 590, in _schedule_flush
+    self.pub_thread.schedule(_schedule_in_thread)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+    self._function()
+  File "/tmp/ipykernel_12090/1136002265.py", line 36, in cross_validate
+    history = train_sweep_arch2(
+  File "/tmp/ipykernel_12090/1443834107.py", line 3, in train_sweep_arch2
+    run = wandb.init(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1214, in init
+    raise Error("An unexpected error occurred") from error_seen
+wandb.errors.Error: An unexpected error occurred
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/lib/ipython.py", line 113, in update
+    self._progress.value = value
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/traitlets/traitlets.py", line 716, in __set__
+    self.set(obj, value)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/traitlets/traitlets.py", line 706, in set
+    obj._notify_trait(self.name, old_value, new_value)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/traitlets/traitlets.py", line 1513, in _notify_trait
+    self.notify_change(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/ipywidgets/widgets/widget.py", line 700, in notify_change
+    self.send_state(key=name)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/ipywidgets/widgets/widget.py", line 586, in send_state
+    self._send(msg, buffers=buffers)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/ipywidgets/widgets/widget.py", line 825, in _send
+    self.comm.send(data=msg, buffers=buffers)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/comm/base_comm.py", line 147, in send
+    self.publish_msg(
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/comm/comm.py", line 37, in publish_msg
+    self.kernel.session.send(
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/jupyter_client/session.py", line 863, in send
+    stream.send_multipart(to_send, copy=copy)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 346, in send_multipart
+    return self.io_thread.send_multipart(*args, **kwargs)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 276, in send_multipart
+    self.schedule(lambda: self._really_send(*args, **kwargs))
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+2024-02-19 12:20:29,981 INFO    Thread-19 (_run_job):12090 [wandb_run.py:_restore():2193] restore
+2024-02-19 12:20:29,981 INFO    Thread-19 (_run_job):12090 [wandb_run.py:_restore():2199] restore done
+2024-02-19 12:20:30,983 ERROR   Thread-19 (_run_job):12090 [wandb_run.py:_atexit_cleanup():2231] Problem finishing run
+Traceback (most recent call last):
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 846, in init
+    run._on_start()
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2280, in _on_start
+    self._header(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3459, in _header
+    Run._header_wandb_version_info(settings=settings, printer=printer)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3492, in _header_wandb_version_info
+    printer.display(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/lib/printer.py", line 68, in display
+    self._display(text, level=level, default_text=default_text)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/lib/printer.py", line 248, in _display
+    self._display_fn_mapping(level)(text)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/lib/ipython.py", line 81, in display_html
+    return display(HTML(html))
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/IPython/core/display_functions.py", line 305, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/IPython/core/display_functions.py", line 93, in publish_display_data
+    display_pub.publish(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 483, in publish
+    ipython.display_pub._orig_publish(data, metadata=metadata, **kwargs)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/zmqshell.py", line 103, in publish
+    self._flush_streams()
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/zmqshell.py", line 66, in _flush_streams
+    sys.stdout.flush()
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 604, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1184, in init
+    getcaller()
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 855, in getcaller
+    print("Problem at:", src, line, func)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 694, in write
+    self._schedule_flush()
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 590, in _schedule_flush
+    self.pub_thread.schedule(_schedule_in_thread)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+    self._function()
+  File "/tmp/ipykernel_12090/1136002265.py", line 36, in cross_validate
+    history = train_sweep_arch2(
+  File "/tmp/ipykernel_12090/1443834107.py", line 3, in train_sweep_arch2
+    run = wandb.init(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1214, in init
+    raise Error("An unexpected error occurred") from error_seen
+wandb.errors.Error: An unexpected error occurred
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/lib/ipython.py", line 113, in update
+    self._progress.value = value
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/traitlets/traitlets.py", line 716, in __set__
+    self.set(obj, value)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/traitlets/traitlets.py", line 706, in set
+    obj._notify_trait(self.name, old_value, new_value)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/traitlets/traitlets.py", line 1513, in _notify_trait
+    self.notify_change(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/ipywidgets/widgets/widget.py", line 700, in notify_change
+    self.send_state(key=name)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/ipywidgets/widgets/widget.py", line 586, in send_state
+    self._send(msg, buffers=buffers)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/ipywidgets/widgets/widget.py", line 825, in _send
+    self.comm.send(data=msg, buffers=buffers)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/comm/base_comm.py", line 147, in send
+    self.publish_msg(
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/comm/comm.py", line 37, in publish_msg
+    self.kernel.session.send(
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/jupyter_client/session.py", line 863, in send
+    stream.send_multipart(to_send, copy=copy)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 346, in send_multipart
+    return self.io_thread.send_multipart(*args, **kwargs)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 276, in send_multipart
+    self.schedule(lambda: self._really_send(*args, **kwargs))
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2219, in _atexit_cleanup
+    self._on_finish()
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2480, in _on_finish
+    self._footer_file_pusher_status_info(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3677, in _footer_file_pusher_status_info
+    Run._footer_single_run_file_pusher_status_info(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3728, in _footer_single_run_file_pusher_status_info
+    printer.progress_update(line, percent_done)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/lib/printer.py", line 288, in progress_update
+    self._progress.update(percent_done, text)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/lib/ipython.py", line 121, in update
+    wandb.termwarn(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/errors/term.py", line 50, in termwarn
+    _log(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/click/utils.py", line 319, in echo
+    file.flush()
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 604, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+2024-02-19 12:22:11,603 INFO    MainThread:12090 [pyagent.py:run():324] Starting sweep agent: entity=None, project=None, count=2
+2024-02-19 12:23:20,868 INFO    MainThread:12090 [wandb_run.py:_finish():1970] finishing run khadgaa/DL_A2_Arch2/usur5ul8
+2024-02-19 12:23:20,869 INFO    MainThread:12090 [jupyter.py:save_history():445] not saving jupyter history
+2024-02-19 12:23:20,869 INFO    MainThread:12090 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-02-19 12:23:20,870 INFO    MainThread:12090 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic

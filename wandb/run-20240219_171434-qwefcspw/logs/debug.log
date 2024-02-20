@@ -1,0 +1,90 @@
+2024-02-19 17:14:34,160 INFO    Thread-16 (_run_job):39171 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-19 17:14:34,161 INFO    Thread-16 (_run_job):39171 [wandb_setup.py:_flush():76] Configure stats pid to 39171
+2024-02-19 17:14:34,161 INFO    Thread-16 (_run_job):39171 [wandb_setup.py:_flush():76] Loading settings from /teamspace/studios/this_studio/.config/wandb/settings
+2024-02-19 17:14:34,161 INFO    Thread-16 (_run_job):39171 [wandb_setup.py:_flush():76] Loading settings from /teamspace/studios/this_studio/A2_Transformer/wandb/settings
+2024-02-19 17:14:34,161 INFO    Thread-16 (_run_job):39171 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'DL_A2_Arch2_cls', 'entity': 'khadgaa'}
+2024-02-19 17:14:34,161 INFO    Thread-16 (_run_job):39171 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-19 17:14:34,161 INFO    Thread-16 (_run_job):39171 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-02-19 17:14:34,161 INFO    Thread-16 (_run_job):39171 [wandb_init.py:_log_setup():526] Logging user logs to /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_171434-qwefcspw/logs/debug.log
+2024-02-19 17:14:34,161 INFO    Thread-16 (_run_job):39171 [wandb_init.py:_log_setup():527] Logging internal logs to /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_171434-qwefcspw/logs/debug-internal.log
+2024-02-19 17:14:34,161 INFO    Thread-16 (_run_job):39171 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f53b80f4370>
+2024-02-19 17:14:34,161 INFO    Thread-16 (_run_job):39171 [wandb_init.py:init():566] calling init triggers
+2024-02-19 17:14:34,161 INFO    Thread-16 (_run_job):39171 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'dk': 64, 'dv': 32, 'epochs': 100, 'features_length': 16, 'learning_rate': 0.0011224976764917316, 'num_blocks': 3, 'num_heads': 2, 'optimizer': 'adam'}
+2024-02-19 17:14:34,161 INFO    Thread-16 (_run_job):39171 [wandb_init.py:init():616] starting backend
+2024-02-19 17:14:34,161 INFO    Thread-16 (_run_job):39171 [wandb_init.py:init():620] setting up manager
+2024-02-19 17:14:34,166 INFO    Thread-16 (_run_job):39171 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-02-19 17:14:34,167 INFO    Thread-16 (_run_job):39171 [wandb_init.py:init():628] backend started and connected
+2024-02-19 17:14:34,183 INFO    Thread-16 (_run_job):39171 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-02-19 17:14:34,183 INFO    Thread-16 (_run_job):39171 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-02-19 17:14:34,183 INFO    Thread-16 (_run_job):39171 [wandb_init.py:init():720] updated telemetry
+2024-02-19 17:14:34,195 INFO    Thread-16 (_run_job):39171 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-19 17:14:34,412 INFO    Thread-16 (_run_job):39171 [wandb_run.py:_on_init():2262] communicating current version
+2024-02-19 17:14:34,447 INFO    Thread-16 (_run_job):39171 [wandb_run.py:_on_init():2271] got version response 
+2024-02-19 17:14:34,447 INFO    Thread-16 (_run_job):39171 [wandb_init.py:init():804] starting run threads in backend
+2024-02-19 17:14:35,390 INFO    MainThread:39171 [pyagent.py:run():324] Starting sweep agent: entity=None, project=None, count=2
+2024-02-19 17:14:38,401 ERROR   Thread-16 (_run_job):39171 [wandb_init.py:init():1204] error
+Traceback (most recent call last):
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 846, in init
+    run._on_start()
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2280, in _on_start
+    self._header(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3459, in _header
+    Run._header_wandb_version_info(settings=settings, printer=printer)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3492, in _header_wandb_version_info
+    printer.display(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/lib/printer.py", line 68, in display
+    self._display(text, level=level, default_text=default_text)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/lib/printer.py", line 248, in _display
+    self._display_fn_mapping(level)(text)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/lib/ipython.py", line 81, in display_html
+    return display(HTML(html))
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/IPython/core/display_functions.py", line 305, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/IPython/core/display_functions.py", line 93, in publish_display_data
+    display_pub.publish(
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 483, in publish
+    ipython.display_pub._orig_publish(data, metadata=metadata, **kwargs)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/zmqshell.py", line 103, in publish
+    self._flush_streams()
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/zmqshell.py", line 66, in _flush_streams
+    sys.stdout.flush()
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 604, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1184, in init
+    getcaller()
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 855, in getcaller
+    print("Problem at:", src, line, func)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 694, in write
+    self._schedule_flush()
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 590, in _schedule_flush
+    self.pub_thread.schedule(_schedule_in_thread)
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 267, in schedule
+    self._event_pipe.send(b"")
+  File "/teamspace/studios/this_studio/.local/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+2024-02-19 17:14:38,449 INFO    Thread-16 (_run_job):39171 [wandb_run.py:_finish():1970] finishing run khadgaa/DL_A2_Arch2_cls/qwefcspw
+2024-02-19 17:14:38,449 INFO    Thread-16 (_run_job):39171 [jupyter.py:save_history():445] not saving jupyter history
+2024-02-19 17:14:38,449 INFO    Thread-16 (_run_job):39171 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-02-19 17:14:38,449 INFO    Thread-16 (_run_job):39171 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-02-19 17:14:38,449 INFO    Thread-16 (_run_job):39171 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-02-19 17:14:38,449 INFO    Thread-16 (_run_job):39171 [wandb_run.py:_restore():2193] restore
+2024-02-19 17:14:38,449 INFO    Thread-16 (_run_job):39171 [wandb_run.py:_restore():2199] restore done

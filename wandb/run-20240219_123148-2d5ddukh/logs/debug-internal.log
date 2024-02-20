@@ -1,0 +1,181 @@
+2024-02-19 12:31:48,733 INFO    StreamThr :26154 [internal.py:wandb_internal():86] W&B internal server running at pid: 26154, started at: 2024-02-19 12:31:48.732596
+2024-02-19 12:31:48,734 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: status
+2024-02-19 12:31:48,751 INFO    WriterThread:26154 [datastore.py:open_for_write():87] open: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/run-2d5ddukh.wandb
+2024-02-19 12:31:48,751 DEBUG   SenderThread:26154 [sender.py:send():382] send: header
+2024-02-19 12:31:48,763 DEBUG   SenderThread:26154 [sender.py:send():382] send: run
+2024-02-19 12:31:48,931 INFO    SenderThread:26154 [dir_watcher.py:__init__():211] watching files in: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files
+2024-02-19 12:31:48,931 INFO    SenderThread:26154 [sender.py:_start_run_threads():1136] run started: 2d5ddukh with start time 1708345908.7339
+2024-02-19 12:31:48,940 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: check_version
+2024-02-19 12:31:48,940 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: check_version
+2024-02-19 12:31:48,987 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: run_start
+2024-02-19 12:31:48,997 DEBUG   HandlerThread:26154 [system_info.py:__init__():27] System info init
+2024-02-19 12:31:48,997 DEBUG   HandlerThread:26154 [system_info.py:__init__():42] System info init done
+2024-02-19 12:31:48,997 INFO    HandlerThread:26154 [system_monitor.py:start():194] Starting system monitor
+2024-02-19 12:31:48,998 INFO    SystemMonitor:26154 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-19 12:31:48,998 INFO    HandlerThread:26154 [system_monitor.py:probe():214] Collecting system info
+2024-02-19 12:31:48,999 INFO    SystemMonitor:26154 [interfaces.py:start():190] Started cpu monitoring
+2024-02-19 12:31:49,000 INFO    SystemMonitor:26154 [interfaces.py:start():190] Started disk monitoring
+2024-02-19 12:31:49,001 INFO    SystemMonitor:26154 [interfaces.py:start():190] Started gpu monitoring
+2024-02-19 12:31:49,001 INFO    SystemMonitor:26154 [interfaces.py:start():190] Started memory monitoring
+2024-02-19 12:31:49,003 INFO    SystemMonitor:26154 [interfaces.py:start():190] Started network monitoring
+2024-02-19 12:31:49,023 DEBUG   HandlerThread:26154 [system_info.py:probe():151] Probing system
+2024-02-19 12:31:49,025 DEBUG   HandlerThread:26154 [system_info.py:_probe_git():136] Probing git
+2024-02-19 12:31:49,043 DEBUG   HandlerThread:26154 [system_info.py:_probe_git():144] Probing git done
+2024-02-19 12:31:49,043 DEBUG   HandlerThread:26154 [system_info.py:probe():199] Probing system done
+2024-02-19 12:31:49,043 DEBUG   HandlerThread:26154 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-1053-aws-x86_64-with-glibc2.31', 'python': '3.10.10', 'heartbeatAt': '2024-02-19T12:31:49.023510', 'startedAt': '2024-02-19T12:31:48.721150', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'A2_Transformer/M23CSA003.ipynb', 'codePathLocal': None, 'root': '/teamspace/studios/this_studio/A2_Transformer', 'git': {'remote': 'git@github.com:KhadgaA/A2_Transformer.git', 'commit': 'f49d667a79002d681f32ce057d2fb26024c8839b'}, 'email': 'khadgajyothalli@gmail.com', 'host': 'ip-10-192-12-25', 'username': 'zeus', 'executable': '/home/zeus/miniconda3/envs/cloudspace/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2798.5522499999997, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2499.998, 'min': 0.0, 'max': 0.0}, {'current': 3100.063, 'min': 0.0, 'max': 0.0}, {'current': 3099.994, 'min': 0.0, 'max': 0.0}, {'current': 2499.998, 'min': 0.0, 'max': 0.0}, {'current': 2499.998, 'min': 0.0, 'max': 0.0}, {'current': 2499.998, 'min': 0.0, 'max': 0.0}, {'current': 2499.998, 'min': 0.0, 'max': 0.0}, {'current': 3099.748, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 387.4823341369629, 'used': 62.20209503173828}}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 16106127360}], 'memory': {'total': 30.887245178222656}}
+2024-02-19 12:31:49,043 INFO    HandlerThread:26154 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-19 12:31:49,043 INFO    HandlerThread:26154 [system_monitor.py:probe():227] Publishing system info
+2024-02-19 12:31:49,043 DEBUG   HandlerThread:26154 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-19 12:31:49,932 INFO    Thread-12 :26154 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/conda-environment.yaml
+2024-02-19 12:31:52,883 DEBUG   HandlerThread:26154 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-19 12:31:52,884 INFO    HandlerThread:26154 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-19 12:31:52,895 DEBUG   SenderThread:26154 [sender.py:send():382] send: files
+2024-02-19 12:31:52,896 INFO    SenderThread:26154 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-19 12:31:52,914 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-19 12:31:52,915 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: python_packages
+2024-02-19 12:31:52,916 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 12:31:52,916 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 12:31:52,918 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 12:31:52,934 INFO    Thread-12 :26154 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/conda-environment.yaml
+2024-02-19 12:31:52,935 INFO    Thread-12 :26154 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/wandb-metadata.json
+2024-02-19 12:31:52,935 INFO    Thread-12 :26154 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/requirements.txt
+2024-02-19 12:31:53,082 DEBUG   SenderThread:26154 [sender.py:send():382] send: telemetry
+2024-02-19 12:31:53,082 DEBUG   SenderThread:26154 [sender.py:send():382] send: run
+2024-02-19 12:31:53,149 INFO    wandb-upload_0:26154 [upload_job.py:push():131] Uploaded file /tmp/tmpvhkmbb5mwandb/phhnzwgd-wandb-metadata.json
+2024-02-19 12:31:53,155 INFO    SenderThread:26154 [sender.py:send_run():1010] updated run: 2d5ddukh
+2024-02-19 12:31:53,155 DEBUG   SenderThread:26154 [sender.py:send():382] send: telemetry
+2024-02-19 12:31:53,155 DEBUG   SenderThread:26154 [sender.py:send():382] send: telemetry
+2024-02-19 12:31:53,155 DEBUG   SenderThread:26154 [sender.py:send():382] send: exit
+2024-02-19 12:31:53,156 INFO    SenderThread:26154 [sender.py:send_exit():589] handling exit code: 0
+2024-02-19 12:31:53,156 INFO    SenderThread:26154 [sender.py:send_exit():591] handling runtime: 3
+2024-02-19 12:31:53,157 INFO    SenderThread:26154 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 12:31:53,158 INFO    SenderThread:26154 [sender.py:send_exit():597] send defer
+2024-02-19 12:31:53,158 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:53,158 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-19 12:31:53,158 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:53,158 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-19 12:31:53,158 INFO    SenderThread:26154 [sender.py:transition_state():617] send defer: 1
+2024-02-19 12:31:53,158 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:53,159 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-19 12:31:53,159 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:53,159 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-19 12:31:53,159 INFO    SenderThread:26154 [sender.py:transition_state():617] send defer: 2
+2024-02-19 12:31:53,159 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:53,159 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-19 12:31:53,159 INFO    HandlerThread:26154 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-19 12:31:53,159 DEBUG   SystemMonitor:26154 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-19 12:31:53,159 INFO    HandlerThread:26154 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-19 12:31:53,160 DEBUG   SystemMonitor:26154 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-19 12:31:53,160 INFO    HandlerThread:26154 [interfaces.py:finish():202] Joined disk monitor
+2024-02-19 12:31:53,160 DEBUG   SystemMonitor:26154 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-19 12:31:53,167 INFO    HandlerThread:26154 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-19 12:31:53,167 INFO    HandlerThread:26154 [interfaces.py:finish():202] Joined memory monitor
+2024-02-19 12:31:53,167 INFO    HandlerThread:26154 [interfaces.py:finish():202] Joined network monitor
+2024-02-19 12:31:53,167 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:53,167 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-19 12:31:53,168 INFO    SenderThread:26154 [sender.py:transition_state():617] send defer: 3
+2024-02-19 12:31:53,168 DEBUG   SenderThread:26154 [sender.py:send():382] send: stats
+2024-02-19 12:31:53,168 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:53,168 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-19 12:31:53,168 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:53,168 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-19 12:31:53,169 INFO    SenderThread:26154 [sender.py:transition_state():617] send defer: 4
+2024-02-19 12:31:53,169 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:53,169 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-19 12:31:53,169 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:53,169 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-19 12:31:53,169 INFO    SenderThread:26154 [sender.py:transition_state():617] send defer: 5
+2024-02-19 12:31:53,169 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:53,169 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-19 12:31:53,170 DEBUG   SenderThread:26154 [sender.py:send():382] send: summary
+2024-02-19 12:31:53,170 INFO    SenderThread:26154 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 12:31:53,170 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:53,170 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-19 12:31:53,171 INFO    SenderThread:26154 [sender.py:transition_state():617] send defer: 6
+2024-02-19 12:31:53,171 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:53,171 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-19 12:31:53,171 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:53,171 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-19 12:31:53,175 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 12:31:53,256 INFO    SenderThread:26154 [sender.py:transition_state():617] send defer: 7
+2024-02-19 12:31:53,256 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:53,256 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-19 12:31:53,257 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:53,257 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-19 12:31:53,923 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 12:31:53,933 INFO    Thread-12 :26154 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/config.yaml
+2024-02-19 12:31:53,933 INFO    Thread-12 :26154 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/wandb-summary.json
+2024-02-19 12:31:53,933 INFO    Thread-12 :26154 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/output.log
+2024-02-19 12:31:55,160 INFO    SenderThread:26154 [sender.py:transition_state():617] send defer: 8
+2024-02-19 12:31:55,160 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 12:31:55,160 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:55,161 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-19 12:31:55,161 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:55,161 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-19 12:31:55,161 INFO    SenderThread:26154 [sender.py:transition_state():617] send defer: 9
+2024-02-19 12:31:55,161 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:55,161 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-19 12:31:55,161 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:55,162 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-19 12:31:55,162 INFO    SenderThread:26154 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-19 12:31:55,923 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 12:31:55,933 INFO    Thread-12 :26154 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/output.log
+2024-02-19 12:31:55,934 INFO    SenderThread:26154 [dir_watcher.py:finish():388] scan: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files
+2024-02-19 12:31:55,934 INFO    SenderThread:26154 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/output.log output.log
+2024-02-19 12:31:55,934 INFO    SenderThread:26154 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/requirements.txt requirements.txt
+2024-02-19 12:31:55,936 INFO    SenderThread:26154 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/wandb-summary.json wandb-summary.json
+2024-02-19 12:31:55,936 INFO    SenderThread:26154 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/wandb-metadata.json wandb-metadata.json
+2024-02-19 12:31:55,940 INFO    SenderThread:26154 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/config.yaml config.yaml
+2024-02-19 12:31:55,940 INFO    SenderThread:26154 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/conda-environment.yaml conda-environment.yaml
+2024-02-19 12:31:55,942 INFO    SenderThread:26154 [sender.py:transition_state():617] send defer: 10
+2024-02-19 12:31:55,943 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 12:31:55,943 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:55,945 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-19 12:31:55,945 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:55,946 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-19 12:31:55,946 INFO    SenderThread:26154 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-19 12:31:56,110 INFO    wandb-upload_0:26154 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/output.log
+2024-02-19 12:31:56,126 INFO    wandb-upload_2:26154 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/wandb-summary.json
+2024-02-19 12:31:56,142 INFO    wandb-upload_1:26154 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/requirements.txt
+2024-02-19 12:31:56,144 INFO    wandb-upload_3:26154 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/config.yaml
+2024-02-19 12:31:56,146 INFO    wandb-upload_4:26154 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/files/conda-environment.yaml
+2024-02-19 12:31:56,346 INFO    Thread-11 (_thread_body):26154 [sender.py:transition_state():617] send defer: 11
+2024-02-19 12:31:56,347 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:56,347 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-19 12:31:56,347 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:56,347 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-19 12:31:56,348 INFO    SenderThread:26154 [file_pusher.py:join():178] waiting for file pusher
+2024-02-19 12:31:56,348 INFO    SenderThread:26154 [sender.py:transition_state():617] send defer: 12
+2024-02-19 12:31:56,348 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:56,348 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-19 12:31:56,348 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:56,348 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-19 12:31:56,348 INFO    SenderThread:26154 [file_stream.py:finish():595] file stream finish called
+2024-02-19 12:31:56,388 INFO    SenderThread:26154 [file_stream.py:finish():599] file stream finish is done
+2024-02-19 12:31:56,388 INFO    SenderThread:26154 [sender.py:transition_state():617] send defer: 13
+2024-02-19 12:31:56,389 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:56,389 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-19 12:31:56,389 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:56,389 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-19 12:31:56,389 INFO    SenderThread:26154 [sender.py:transition_state():617] send defer: 14
+2024-02-19 12:31:56,389 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 12:31:56,390 DEBUG   SenderThread:26154 [sender.py:send():382] send: final
+2024-02-19 12:31:56,390 INFO    HandlerThread:26154 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-19 12:31:56,390 DEBUG   SenderThread:26154 [sender.py:send():382] send: footer
+2024-02-19 12:31:56,390 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: defer
+2024-02-19 12:31:56,390 INFO    SenderThread:26154 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-19 12:31:56,391 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 12:31:56,391 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 12:31:56,392 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 12:31:56,393 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: server_info
+2024-02-19 12:31:56,393 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: server_info
+2024-02-19 12:31:56,434 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-19 12:31:56,434 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-19 12:31:56,435 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: job_info
+2024-02-19 12:31:56,435 DEBUG   SenderThread:26154 [sender.py:send_request():409] send_request: job_info
+2024-02-19 12:31:56,478 DEBUG   HandlerThread:26154 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-19 12:31:56,478 INFO    HandlerThread:26154 [handler.py:finish():869] shutting down handler
+2024-02-19 12:31:57,435 INFO    WriterThread:26154 [datastore.py:close():296] close: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_123148-2d5ddukh/run-2d5ddukh.wandb
+2024-02-19 12:31:57,435 INFO    SenderThread:26154 [sender.py:finish():1572] shutting down sender
+2024-02-19 12:31:57,435 INFO    SenderThread:26154 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-19 12:31:57,436 INFO    SenderThread:26154 [file_pusher.py:join():178] waiting for file pusher

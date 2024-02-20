@@ -1,0 +1,87 @@
+{
+    "os": "Linux-5.15.0-1053-aws-x86_64-with-glibc2.31",
+    "python": "3.10.10",
+    "heartbeatAt": "2024-02-19T17:50:40.589357",
+    "startedAt": "2024-02-19T17:50:39.328099",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "A2_Transformer/M23CSA003.ipynb",
+    "codePathLocal": null,
+    "root": "/teamspace/studios/this_studio/A2_Transformer",
+    "git": {
+        "remote": "git@github.com:KhadgaA/A2_Transformer.git",
+        "commit": "f49d667a79002d681f32ce057d2fb26024c8839b"
+    },
+    "email": "khadgajyothalli@gmail.com",
+    "host": "ip-10-192-10-82",
+    "username": "zeus",
+    "executable": "/home/zeus/miniconda3/envs/cloudspace/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2788.3914999999997,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3100.061,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.996,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3100.033,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2499.996,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 387.4823341369629,
+            "used": 54.519073486328125
+        }
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla T4",
+            "memory_total": 16106127360
+        }
+    ],
+    "memory": {
+        "total": 30.887256622314453
+    }
+}

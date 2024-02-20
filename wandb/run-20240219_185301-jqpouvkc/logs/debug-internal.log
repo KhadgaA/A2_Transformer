@@ -1,0 +1,1074 @@
+2024-02-19 18:53:02,643 INFO    StreamThr :77897 [internal.py:wandb_internal():86] W&B internal server running at pid: 77897, started at: 2024-02-19 18:53:02.642429
+2024-02-19 18:53:02,643 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status
+2024-02-19 18:53:02,644 INFO    WriterThread:77897 [datastore.py:open_for_write():87] open: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/run-jqpouvkc.wandb
+2024-02-19 18:53:02,646 DEBUG   SenderThread:77897 [sender.py:send():382] send: header
+2024-02-19 18:53:02,646 DEBUG   SenderThread:77897 [sender.py:send():382] send: run
+2024-02-19 18:53:02,823 INFO    SenderThread:77897 [dir_watcher.py:__init__():211] watching files in: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files
+2024-02-19 18:53:02,823 INFO    SenderThread:77897 [sender.py:_start_run_threads():1136] run started: jqpouvkc with start time 1708368781.712811
+2024-02-19 18:53:02,832 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: check_version
+2024-02-19 18:53:02,833 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: check_version
+2024-02-19 18:53:02,912 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: run_start
+2024-02-19 18:53:02,913 DEBUG   HandlerThread:77897 [system_info.py:__init__():27] System info init
+2024-02-19 18:53:02,913 DEBUG   HandlerThread:77897 [system_info.py:__init__():42] System info init done
+2024-02-19 18:53:02,913 INFO    HandlerThread:77897 [system_monitor.py:start():194] Starting system monitor
+2024-02-19 18:53:02,913 INFO    SystemMonitor:77897 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-19 18:53:02,914 INFO    HandlerThread:77897 [system_monitor.py:probe():214] Collecting system info
+2024-02-19 18:53:02,914 INFO    SystemMonitor:77897 [interfaces.py:start():190] Started cpu monitoring
+2024-02-19 18:53:02,915 INFO    SystemMonitor:77897 [interfaces.py:start():190] Started disk monitoring
+2024-02-19 18:53:02,915 INFO    SystemMonitor:77897 [interfaces.py:start():190] Started gpu monitoring
+2024-02-19 18:53:02,916 INFO    SystemMonitor:77897 [interfaces.py:start():190] Started memory monitoring
+2024-02-19 18:53:02,917 INFO    SystemMonitor:77897 [interfaces.py:start():190] Started network monitoring
+2024-02-19 18:53:02,937 DEBUG   HandlerThread:77897 [system_info.py:probe():151] Probing system
+2024-02-19 18:53:02,937 DEBUG   HandlerThread:77897 [system_info.py:_probe_git():136] Probing git
+2024-02-19 18:53:02,952 DEBUG   HandlerThread:77897 [system_info.py:_probe_git():144] Probing git done
+2024-02-19 18:53:02,952 DEBUG   HandlerThread:77897 [system_info.py:probe():199] Probing system done
+2024-02-19 18:53:02,953 DEBUG   HandlerThread:77897 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-1053-aws-x86_64-with-glibc2.31', 'python': '3.10.10', 'heartbeatAt': '2024-02-19T18:53:02.937352', 'startedAt': '2024-02-19T18:53:01.704298', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'A2_Transformer/M23CSA003.ipynb', 'codePathLocal': None, 'root': '/teamspace/studios/this_studio/A2_Transformer', 'git': {'remote': 'git@github.com:KhadgaA/A2_Transformer.git', 'commit': 'f49d667a79002d681f32ce057d2fb26024c8839b'}, 'email': 'khadgajyothalli@gmail.com', 'host': 'ip-10-192-10-82', 'username': 'zeus', 'executable': '/home/zeus/miniconda3/envs/cloudspace/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2562.58675, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2499.996, 'min': 0.0, 'max': 0.0}, {'current': 2499.996, 'min': 0.0, 'max': 0.0}, {'current': 2499.996, 'min': 0.0, 'max': 0.0}, {'current': 2499.996, 'min': 0.0, 'max': 0.0}, {'current': 2499.996, 'min': 0.0, 'max': 0.0}, {'current': 3000.722, 'min': 0.0, 'max': 0.0}, {'current': 2499.996, 'min': 0.0, 'max': 0.0}, {'current': 2499.996, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 387.4823341369629, 'used': 54.54254150390625}}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 16106127360}], 'memory': {'total': 30.887256622314453}}
+2024-02-19 18:53:02,953 INFO    HandlerThread:77897 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-19 18:53:02,953 INFO    HandlerThread:77897 [system_monitor.py:probe():227] Publishing system info
+2024-02-19 18:53:02,953 DEBUG   HandlerThread:77897 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-19 18:53:03,825 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/conda-environment.yaml
+2024-02-19 18:53:06,824 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/conda-environment.yaml
+2024-02-19 18:53:06,888 DEBUG   HandlerThread:77897 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-19 18:53:06,889 INFO    HandlerThread:77897 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-19 18:53:06,889 DEBUG   SenderThread:77897 [sender.py:send():382] send: files
+2024-02-19 18:53:06,889 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-19 18:53:06,900 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-19 18:53:06,901 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: python_packages
+2024-02-19 18:53:06,901 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:53:06,901 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:53:06,902 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:53:07,017 DEBUG   SenderThread:77897 [sender.py:send():382] send: telemetry
+2024-02-19 18:53:07,019 DEBUG   SenderThread:77897 [sender.py:send():382] send: config
+2024-02-19 18:53:07,125 INFO    wandb-upload_0:77897 [upload_job.py:push():131] Uploaded file /tmp/tmpxo39lmq6wandb/oil1rwet-wandb-metadata.json
+2024-02-19 18:53:07,771 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:53:07,825 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-metadata.json
+2024-02-19 18:53:07,826 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/requirements.txt
+2024-02-19 18:53:07,826 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:09,826 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:10,515 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:53:10,517 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:53:10,517 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:53:10,518 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:53:10,826 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:53:11,826 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:12,983 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:53:13,827 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:14,080 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:53:14,081 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:53:14,082 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:53:14,082 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:53:14,827 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:53:15,828 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:17,672 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:53:17,674 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:53:17,674 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:53:17,674 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:53:17,829 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:17,829 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:53:18,080 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:53:19,829 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:21,335 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:53:21,337 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:53:21,337 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:53:21,337 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:53:21,830 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:21,830 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:53:21,901 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:53:21,901 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:53:21,901 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:53:23,366 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:53:23,831 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:24,912 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:53:24,913 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:53:24,913 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:53:24,914 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:53:25,831 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:25,832 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:53:27,832 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:28,492 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:53:28,492 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:53:28,493 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:53:28,493 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:53:28,494 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:53:28,833 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:53:29,833 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:31,834 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:32,120 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:53:32,121 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:53:32,122 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:53:32,122 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:53:32,834 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:53:33,730 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:53:33,834 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/config.yaml
+2024-02-19 18:53:33,835 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:35,686 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:53:35,687 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:53:35,687 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:53:35,688 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:53:35,835 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:35,835 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:53:36,901 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:53:36,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:53:36,903 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:53:37,836 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:39,214 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:53:39,214 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:53:39,215 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:53:39,215 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:53:39,216 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:53:39,837 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:39,837 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:53:41,837 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:42,796 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:53:42,797 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:53:42,797 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:53:42,798 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:53:42,838 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:53:43,838 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:44,426 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:53:45,839 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:46,421 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:53:46,422 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:53:46,422 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:53:46,423 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:53:46,839 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:53:47,839 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:49,535 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:53:49,840 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:50,024 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:53:50,025 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:53:50,025 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:53:50,026 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:53:50,840 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:53:51,841 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:51,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:53:51,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:53:51,903 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:53:53,587 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:53:53,587 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:53:53,588 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:53:53,588 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:53:53,841 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:53,842 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:53:54,863 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:53:55,842 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:57,195 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:53:57,198 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:53:57,198 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:53:57,199 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:53:57,843 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:53:57,843 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:53:59,844 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:00,073 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:54:00,771 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:00,774 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:00,774 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:00,775 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:00,844 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:01,844 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:02,917 DEBUG   SystemMonitor:77897 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-19 18:54:02,918 DEBUG   SenderThread:77897 [sender.py:send():382] send: stats
+2024-02-19 18:54:03,845 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:04,371 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:04,372 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:04,372 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:04,372 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:04,845 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:05,231 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:54:05,846 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:06,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:54:06,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:54:06,903 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:54:07,846 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:07,964 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:07,965 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:07,966 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:07,966 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:08,847 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:09,847 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:10,453 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:54:11,570 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:11,571 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:11,572 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:11,572 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:11,848 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:11,848 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:13,849 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:15,117 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:15,117 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:15,118 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:15,118 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:15,544 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:54:15,849 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:15,850 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:17,850 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:18,646 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:18,647 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:18,647 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:18,648 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:18,851 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:19,851 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:20,766 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:54:21,852 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:21,901 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:54:21,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:54:21,902 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:54:22,304 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:22,305 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:22,306 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:22,306 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:22,853 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:23,854 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:25,831 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:25,832 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:54:25,832 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:25,833 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:25,833 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:25,854 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:25,855 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:27,855 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:29,416 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:29,416 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:29,417 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:29,417 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:29,856 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:29,856 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:31,107 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:54:31,856 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:32,918 DEBUG   SenderThread:77897 [sender.py:send():382] send: stats
+2024-02-19 18:54:32,972 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:32,973 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:32,973 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:32,974 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:33,857 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:33,858 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:35,858 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:36,552 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:36,553 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:54:36,553 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:36,554 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:36,554 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:36,858 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:36,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:54:36,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:54:36,903 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:54:37,859 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:39,859 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:40,105 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:40,106 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:40,106 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:40,107 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:40,860 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:41,786 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:54:41,860 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:43,628 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:43,628 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:43,629 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:43,629 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:43,861 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:43,861 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:45,862 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:46,791 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:54:47,219 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:47,219 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:47,219 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:47,220 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:47,862 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:47,863 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:49,863 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:50,884 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:50,885 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:50,885 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:50,886 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:51,864 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:51,865 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:51,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:54:51,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:54:51,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:54:51,903 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:54:53,865 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:54,420 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:54,421 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:54,421 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:54,422 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:54,865 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:55,865 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:56,957 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:54:57,866 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:54:57,980 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:54:57,981 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:54:57,981 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:54:57,982 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:54:58,866 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:54:59,867 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:01,558 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:01,559 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:01,559 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:01,560 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:01,867 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:01,867 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:01,961 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:55:02,919 DEBUG   SenderThread:77897 [sender.py:send():382] send: stats
+2024-02-19 18:55:03,868 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:05,096 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:05,097 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:05,097 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:05,098 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:05,869 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:05,869 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:06,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:55:06,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:55:06,903 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:55:07,005 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:55:07,869 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:08,668 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:08,669 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:08,669 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:08,670 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:08,870 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:09,872 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:11,873 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:12,266 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:55:12,266 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:12,267 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:12,267 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:12,268 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:12,873 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:13,874 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:15,875 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:15,880 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:15,881 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:15,881 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:15,882 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:16,875 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:17,524 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:55:17,875 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:19,425 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:19,426 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:19,426 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:19,427 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:19,876 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:19,876 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:21,877 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:21,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:55:21,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:55:21,903 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:55:22,575 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:55:23,008 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:23,009 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:23,009 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:23,010 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:23,878 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:23,878 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:25,879 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:26,604 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:26,605 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:26,605 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:26,606 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:26,879 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:27,822 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:55:27,879 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:29,880 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:30,179 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:30,180 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:30,181 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:30,184 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:30,881 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:31,881 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:32,919 DEBUG   SenderThread:77897 [sender.py:send():382] send: stats
+2024-02-19 18:55:32,920 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:55:33,692 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:33,693 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:33,693 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:33,694 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:33,893 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:33,893 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:35,893 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:36,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:55:36,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:55:36,903 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:55:37,356 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:37,357 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:37,358 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:37,358 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:37,894 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:37,894 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:38,117 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:55:39,895 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:40,922 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:40,923 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:40,923 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:40,924 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:41,895 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:41,896 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:43,388 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:55:43,897 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:44,487 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:44,487 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:44,488 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:44,489 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:44,897 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:45,897 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:47,898 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:48,108 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:48,108 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:48,109 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:48,109 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:48,510 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:55:48,899 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:49,899 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:51,719 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:51,721 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:51,721 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:51,721 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:51,900 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:51,900 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:51,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:55:51,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:55:51,903 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:55:53,739 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:55:53,900 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:55,260 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:55,261 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:55,261 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:55,262 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:55,901 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:55,901 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:57,902 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:55:58,814 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:55:58,814 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:55:58,815 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:55:58,815 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:55:58,816 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:55:58,902 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:55:59,902 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:01,903 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:02,398 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:02,399 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:02,399 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:02,400 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:02,904 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:02,920 DEBUG   SenderThread:77897 [sender.py:send():382] send: stats
+2024-02-19 18:56:03,904 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:04,016 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:56:05,905 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:05,993 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:05,993 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:05,994 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:05,995 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:06,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:56:06,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:56:06,904 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:56:06,906 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:07,906 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:09,109 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:56:09,586 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:09,587 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:09,588 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:09,588 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:09,907 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:09,908 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:11,908 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:13,148 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:13,149 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:13,149 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:13,150 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:13,909 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:13,909 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:14,393 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:56:15,909 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:16,749 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:16,751 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:16,751 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:16,752 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:16,909 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:17,910 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:19,589 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:56:19,910 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:20,309 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:20,310 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:20,310 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:20,311 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:20,911 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:21,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:56:21,904 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:56:21,904 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:56:21,911 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:23,821 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:23,822 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:23,822 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:23,823 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:23,912 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:23,912 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:24,656 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:56:25,912 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:27,404 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:27,405 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:27,406 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:27,406 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:27,913 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:27,913 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:29,872 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:56:29,914 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:31,005 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:31,006 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:31,006 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:31,007 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:31,914 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:31,915 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:32,920 DEBUG   SenderThread:77897 [sender.py:send():382] send: stats
+2024-02-19 18:56:33,915 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:34,541 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:34,542 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:34,542 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:34,543 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:34,916 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:34,967 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:56:35,916 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:36,902 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:56:36,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:56:36,903 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:56:37,917 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:38,138 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:38,139 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:38,139 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:38,140 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:38,917 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:39,917 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:40,236 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:56:41,763 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:41,765 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:41,765 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:41,766 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:41,918 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:41,918 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:43,919 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:45,319 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:45,320 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:56:45,320 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:45,321 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:45,321 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:45,920 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:45,920 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:47,920 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:48,861 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:48,861 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:48,862 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:48,862 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:48,921 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:49,921 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:50,570 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:56:51,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:56:51,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:56:51,904 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:56:51,921 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:52,471 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:52,472 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:52,472 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:52,473 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:52,922 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:53,922 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:55,574 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:56:55,923 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:56,068 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:56,068 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:56,069 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:56,069 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:56,923 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:56:57,924 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:59,606 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:56:59,607 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:56:59,608 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:56:59,608 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:56:59,924 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:56:59,925 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:00,886 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:57:01,925 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:02,921 DEBUG   SenderThread:77897 [sender.py:send():382] send: stats
+2024-02-19 18:57:03,206 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:03,207 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:03,207 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:03,208 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:03,926 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:03,926 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:05,927 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:06,149 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:57:06,830 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:06,830 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:06,831 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:06,831 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:06,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:57:06,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:57:06,904 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:57:06,927 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:07,927 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:09,928 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:10,435 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:10,436 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:10,436 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:10,436 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:10,928 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:11,290 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:57:11,929 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:13,929 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:14,024 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:14,025 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:14,025 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:14,026 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:14,930 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:15,930 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:16,569 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:57:17,633 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:17,634 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:17,634 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:17,635 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:17,931 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:17,931 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:19,931 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:21,246 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:21,247 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:21,248 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:21,248 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:21,671 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:57:21,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:57:21,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:57:21,904 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:57:21,932 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:21,932 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:23,933 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:24,788 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:24,789 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:24,790 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:24,790 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:24,933 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:25,934 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:26,951 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:57:27,934 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:28,388 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:28,389 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:28,389 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:28,390 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:28,935 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:29,935 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:31,936 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:31,988 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:57:31,988 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:31,989 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:31,989 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:31,990 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:32,922 DEBUG   SenderThread:77897 [sender.py:send():382] send: stats
+2024-02-19 18:57:32,936 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:33,937 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:35,572 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:35,573 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:35,573 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:35,574 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:35,937 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:35,937 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:36,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:57:36,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:57:36,904 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:57:37,230 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:57:37,938 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:39,093 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:39,096 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:39,097 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:39,097 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:39,939 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:39,939 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:41,940 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:42,254 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:57:42,681 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:42,681 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:42,682 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:42,682 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:42,940 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:43,940 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:45,941 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:46,329 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:46,330 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:46,330 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:46,331 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:46,941 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:47,567 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:57:47,941 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:49,889 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:49,889 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:49,890 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:49,890 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:49,942 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:49,943 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:51,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:57:51,904 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:57:51,904 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:57:51,943 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:52,830 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:57:53,463 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:53,463 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:53,464 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:53,464 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:53,944 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:53,944 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:55,944 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:57,089 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:57:57,090 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:57:57,090 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:57:57,091 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:57:57,900 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:57:57,945 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:57:57,945 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:57:59,945 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:00,687 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:00,688 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:00,689 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:00,689 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:00,946 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:01,946 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:02,922 DEBUG   SenderThread:77897 [sender.py:send():382] send: stats
+2024-02-19 18:58:02,923 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:58:03,947 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:04,243 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:04,244 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:04,244 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:04,245 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:04,947 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:05,947 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:06,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:58:06,904 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:58:06,905 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:58:07,828 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:07,829 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:07,829 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:07,830 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:07,948 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:07,948 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:08,240 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:58:09,949 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:11,445 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:11,446 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:11,446 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:11,447 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:11,949 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:11,950 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:13,454 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:58:13,950 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:14,977 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:14,978 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:14,978 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:14,978 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:15,951 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:15,951 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:17,951 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:18,512 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:18,513 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:58:18,513 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:18,513 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:18,514 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:18,952 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:19,952 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:21,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:58:21,904 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:58:21,904 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:58:21,953 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:22,096 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:22,097 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:22,098 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:22,098 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:22,953 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:23,650 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:58:23,953 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:25,586 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:25,587 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:25,587 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:25,588 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:25,954 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:25,954 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:27,955 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:28,651 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:58:29,104 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:29,105 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:29,106 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:29,106 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:29,955 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:29,956 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:31,956 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:32,638 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:32,639 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:32,639 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:32,640 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:32,922 DEBUG   SenderThread:77897 [sender.py:send():382] send: stats
+2024-02-19 18:58:32,956 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:33,820 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:58:33,957 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:35,957 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:36,164 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:36,165 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:36,165 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:36,166 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:36,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:58:36,904 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:58:36,904 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:58:36,958 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:37,958 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:39,016 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:58:39,701 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:39,701 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:39,702 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:39,702 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:39,959 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:39,959 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:41,959 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:43,193 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:43,193 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:43,193 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:43,194 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:43,960 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:43,961 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:44,399 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:58:45,961 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:46,745 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:46,746 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:46,746 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:46,747 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:46,961 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:47,962 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:49,575 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:58:49,962 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:50,270 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:50,270 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:50,271 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:50,271 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:50,963 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:51,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-19 18:58:51,903 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:58:51,904 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: stop_status
+2024-02-19 18:58:51,963 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:53,728 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:53,728 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:53,729 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:53,729 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:53,964 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:53,964 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:54,956 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:58:55,964 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:57,282 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:58:57,283 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:58:57,283 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:58:57,284 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:58:57,965 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:58:57,965 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:58:59,966 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:59:00,112 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:59:00,814 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:59:00,815 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:59:00,815 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:59:00,816 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:59:00,966 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:59:01,966 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:59:02,923 DEBUG   SenderThread:77897 [sender.py:send():382] send: stats
+2024-02-19 18:59:03,967 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:59:04,316 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:59:04,317 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:59:04,317 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:59:04,317 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:59:04,801 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:59:04,801 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:59:04,802 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:59:04,802 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:59:04,824 DEBUG   SenderThread:77897 [sender.py:send():382] send: config
+2024-02-19 18:59:04,934 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: log_artifact
+2024-02-19 18:59:04,934 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: log_artifact
+2024-02-19 18:59:04,947 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:59:04,968 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:59:04,968 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/media/table/pr_table_100_57e3f6d2e11ab0e84260.table.json
+2024-02-19 18:59:04,968 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/media
+2024-02-19 18:59:04,968 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/media/table
+2024-02-19 18:59:05,024 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: log_artifact
+2024-02-19 18:59:05,036 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:59:05,116 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: log_artifact
+2024-02-19 18:59:05,128 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-19 18:59:05,164 INFO    wandb-upload_0:77897 [upload_job.py:push():131] Uploaded file /tmp/tmpxo39lmq6wandb/wekjwkbh-media/table/pr_table_100_57e3f6d2e11ab0e84260.table.json
+2024-02-19 18:59:05,187 INFO    SenderThread:77897 [sender.py:send_request_log_artifact():1470] logged artifact run-jqpouvkc-pr_table - {'id': 'QXJ0aWZhY3Q6NzI2MDQ5ODQw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTE4MjE0Mg==', 'latestArtifact': None}}
+2024-02-19 18:59:05,187 DEBUG   SenderThread:77897 [sender.py:send():382] send: files
+2024-02-19 18:59:05,187 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:59:05,187 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file media/table/pr_table_100_57e3f6d2e11ab0e84260.table.json with policy now
+2024-02-19 18:59:05,188 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:59:05,188 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:59:05,189 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:59:05,189 DEBUG   SenderThread:77897 [sender.py:send():382] send: config
+2024-02-19 18:59:05,189 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: log_artifact
+2024-02-19 18:59:05,379 INFO    SenderThread:77897 [sender.py:send_request_log_artifact():1470] logged artifact run-jqpouvkc-roc_table - {'id': 'QXJ0aWZhY3Q6NzI2MDQ5ODQy', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTE4MjE0Mw==', 'latestArtifact': None}}
+2024-02-19 18:59:05,379 DEBUG   SenderThread:77897 [sender.py:send():382] send: files
+2024-02-19 18:59:05,380 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file media/table/roc_table_101_7567bf3bb7aa502bfd5f.table.json with policy now
+2024-02-19 18:59:05,380 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:59:05,381 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:59:05,381 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:59:05,382 DEBUG   SenderThread:77897 [sender.py:send():382] send: config
+2024-02-19 18:59:05,382 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: log_artifact
+2024-02-19 18:59:05,460 INFO    wandb-upload_0:77897 [upload_job.py:push():89] Uploaded file /teamspace/studios/this_studio/.local/share/wandb/artifacts/staging/tmp_u7h2ti3
+2024-02-19 18:59:05,479 INFO    wandb-upload_1:77897 [upload_job.py:push():131] Uploaded file /tmp/tmpxo39lmq6wandb/elnm1igf-media/table/pr_table_100_57e3f6d2e11ab0e84260.table.json
+2024-02-19 18:59:05,537 INFO    SenderThread:77897 [sender.py:send_request_log_artifact():1470] logged artifact run-jqpouvkc-conf_mat_table - {'id': 'QXJ0aWZhY3Q6NzI2MDQ5ODQ2', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTE4MjE0Ng==', 'latestArtifact': None}}
+2024-02-19 18:59:05,538 DEBUG   SenderThread:77897 [sender.py:send():382] send: files
+2024-02-19 18:59:05,538 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file media/table/conf_mat_table_102_89ffb7e4e08d779bfb0d.table.json with policy now
+2024-02-19 18:59:05,538 DEBUG   SenderThread:77897 [sender.py:send():382] send: history
+2024-02-19 18:59:05,538 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:59:05,539 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:59:05,539 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:59:05,540 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:59:05,540 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:59:05,541 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:59:05,541 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: summary_record
+2024-02-19 18:59:05,547 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:59:05,548 DEBUG   SenderThread:77897 [sender.py:send():382] send: telemetry
+2024-02-19 18:59:05,548 DEBUG   SenderThread:77897 [sender.py:send():382] send: exit
+2024-02-19 18:59:05,548 INFO    SenderThread:77897 [sender.py:send_exit():589] handling exit code: 0
+2024-02-19 18:59:05,548 INFO    SenderThread:77897 [sender.py:send_exit():591] handling runtime: 362
+2024-02-19 18:59:05,549 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:59:05,549 INFO    SenderThread:77897 [sender.py:send_exit():597] send defer
+2024-02-19 18:59:05,549 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:05,550 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-19 18:59:05,550 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:05,550 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-19 18:59:05,550 INFO    SenderThread:77897 [sender.py:transition_state():617] send defer: 1
+2024-02-19 18:59:05,550 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:05,550 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-19 18:59:05,550 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:05,551 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-19 18:59:05,551 INFO    SenderThread:77897 [sender.py:transition_state():617] send defer: 2
+2024-02-19 18:59:05,551 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:05,551 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-19 18:59:05,551 INFO    HandlerThread:77897 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-19 18:59:05,551 DEBUG   SystemMonitor:77897 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-19 18:59:05,551 INFO    HandlerThread:77897 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-19 18:59:05,552 DEBUG   SystemMonitor:77897 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-19 18:59:05,552 INFO    HandlerThread:77897 [interfaces.py:finish():202] Joined disk monitor
+2024-02-19 18:59:05,563 INFO    HandlerThread:77897 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-19 18:59:05,563 INFO    HandlerThread:77897 [interfaces.py:finish():202] Joined memory monitor
+2024-02-19 18:59:05,563 INFO    HandlerThread:77897 [interfaces.py:finish():202] Joined network monitor
+2024-02-19 18:59:05,563 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:05,564 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-19 18:59:05,564 INFO    SenderThread:77897 [sender.py:transition_state():617] send defer: 3
+2024-02-19 18:59:05,564 DEBUG   SenderThread:77897 [sender.py:send():382] send: stats
+2024-02-19 18:59:05,564 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:05,564 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-19 18:59:05,565 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:05,565 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-19 18:59:05,565 INFO    SenderThread:77897 [sender.py:transition_state():617] send defer: 4
+2024-02-19 18:59:05,565 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:05,565 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-19 18:59:05,565 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:05,565 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-19 18:59:05,565 INFO    SenderThread:77897 [sender.py:transition_state():617] send defer: 5
+2024-02-19 18:59:05,565 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:05,565 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-19 18:59:05,566 DEBUG   SenderThread:77897 [sender.py:send():382] send: summary
+2024-02-19 18:59:05,566 INFO    SenderThread:77897 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-19 18:59:05,567 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:05,567 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-19 18:59:05,567 INFO    SenderThread:77897 [sender.py:transition_state():617] send defer: 6
+2024-02-19 18:59:05,567 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:05,567 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-19 18:59:05,567 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:05,567 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-19 18:59:05,571 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: status_report
+2024-02-19 18:59:05,573 INFO    wandb-upload_3:77897 [upload_job.py:push():131] Uploaded file /tmp/tmpxo39lmq6wandb/ckb5v1xe-media/table/roc_table_101_7567bf3bb7aa502bfd5f.table.json
+2024-02-19 18:59:05,639 INFO    SenderThread:77897 [sender.py:transition_state():617] send defer: 7
+2024-02-19 18:59:05,639 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:05,640 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-19 18:59:05,640 INFO    wandb-upload_2:77897 [upload_job.py:push():89] Uploaded file /teamspace/studios/this_studio/.local/share/wandb/artifacts/staging/tmp5_ig2kk9
+2024-02-19 18:59:05,640 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:05,640 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-19 18:59:05,968 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/config.yaml
+2024-02-19 18:59:05,968 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:59:05,969 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:59:05,969 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/media/table/conf_mat_table_102_89ffb7e4e08d779bfb0d.table.json
+2024-02-19 18:59:05,969 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/media/table/roc_table_101_7567bf3bb7aa502bfd5f.table.json
+2024-02-19 18:59:05,969 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/media/table
+2024-02-19 18:59:06,007 INFO    wandb-upload_1:77897 [upload_job.py:push():131] Uploaded file /tmp/tmpxo39lmq6wandb/5a6vzxfz-media/table/conf_mat_table_102_89ffb7e4e08d779bfb0d.table.json
+2024-02-19 18:59:06,057 INFO    wandb-upload_0:77897 [upload_job.py:push():89] Uploaded file /teamspace/studios/this_studio/.local/share/wandb/artifacts/staging/tmp6bgl86tv
+2024-02-19 18:59:06,138 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 18:59:06,516 INFO    wandb-upload_2:77897 [upload_job.py:push():131] Uploaded file /tmp/tmpxo39lmq6wandb/hevelswh-media/table/roc_table_101_7567bf3bb7aa502bfd5f.table.json
+2024-02-19 18:59:06,547 INFO    wandb-upload_3:77897 [upload_job.py:push():131] Uploaded file /tmp/tmpxo39lmq6wandb/qfx3c3rf-media/table/conf_mat_table_102_89ffb7e4e08d779bfb0d.table.json
+2024-02-19 18:59:07,969 INFO    Thread-58 :77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:59:09,447 INFO    SenderThread:77897 [sender.py:transition_state():617] send defer: 8
+2024-02-19 18:59:09,447 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 18:59:09,447 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:09,448 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-19 18:59:09,448 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:09,448 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-19 18:59:09,448 INFO    SenderThread:77897 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-19 18:59:09,449 INFO    SenderThread:77897 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-02-19 18:59:09,449 INFO    SenderThread:77897 [job_builder.py:_get_program_relpath():444] run is notebook based run
+2024-02-19 18:59:09,451 INFO    SenderThread:77897 [job_builder.py:build():402] adding wandb-job metadata file
+2024-02-19 18:59:09,458 INFO    SenderThread:77897 [sender.py:transition_state():617] send defer: 9
+2024-02-19 18:59:09,458 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:09,458 DEBUG   SenderThread:77897 [sender.py:send():382] send: artifact
+2024-02-19 18:59:09,458 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-19 18:59:09,665 INFO    SenderThread:77897 [sender.py:send_artifact():1494] sent artifact job-git_github.com_KhadgaA_A2_Transformer.git_A2_Transformer_M23CSA003.ipynb - {'id': 'QXJ0aWZhY3Q6NzI1OTg4NzUy', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTE2MDI1NA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzI1OTg4NzUy', 'versionIndex': 0}}}
+2024-02-19 18:59:09,665 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:09,665 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-19 18:59:09,665 INFO    SenderThread:77897 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-19 18:59:09,970 INFO    SenderThread:77897 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:59:09,970 INFO    SenderThread:77897 [dir_watcher.py:finish():388] scan: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files
+2024-02-19 18:59:09,970 INFO    SenderThread:77897 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log output.log
+2024-02-19 18:59:09,970 INFO    SenderThread:77897 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/requirements.txt requirements.txt
+2024-02-19 18:59:09,973 INFO    SenderThread:77897 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json wandb-summary.json
+2024-02-19 18:59:09,975 INFO    SenderThread:77897 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-metadata.json wandb-metadata.json
+2024-02-19 18:59:09,975 INFO    SenderThread:77897 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/config.yaml config.yaml
+2024-02-19 18:59:10,009 INFO    SenderThread:77897 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/conda-environment.yaml conda-environment.yaml
+2024-02-19 18:59:10,026 INFO    SenderThread:77897 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/media/table/roc_table_101_7567bf3bb7aa502bfd5f.table.json media/table/roc_table_101_7567bf3bb7aa502bfd5f.table.json
+2024-02-19 18:59:10,027 INFO    SenderThread:77897 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/media/table/conf_mat_table_102_89ffb7e4e08d779bfb0d.table.json media/table/conf_mat_table_102_89ffb7e4e08d779bfb0d.table.json
+2024-02-19 18:59:10,030 INFO    SenderThread:77897 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/media/table/pr_table_100_57e3f6d2e11ab0e84260.table.json media/table/pr_table_100_57e3f6d2e11ab0e84260.table.json
+2024-02-19 18:59:10,031 INFO    SenderThread:77897 [sender.py:transition_state():617] send defer: 10
+2024-02-19 18:59:10,033 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:10,035 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-19 18:59:10,037 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:10,038 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-19 18:59:10,039 INFO    SenderThread:77897 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-19 18:59:10,139 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 18:59:10,140 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 18:59:10,152 INFO    wandb-upload_0:77897 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/output.log
+2024-02-19 18:59:10,182 INFO    wandb-upload_2:77897 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/requirements.txt
+2024-02-19 18:59:10,192 INFO    wandb-upload_3:77897 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/conda-environment.yaml
+2024-02-19 18:59:10,224 INFO    wandb-upload_4:77897 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/config.yaml
+2024-02-19 18:59:10,263 INFO    wandb-upload_1:77897 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/files/wandb-summary.json
+2024-02-19 18:59:10,464 INFO    Thread-57 (_thread_body):77897 [sender.py:transition_state():617] send defer: 11
+2024-02-19 18:59:10,464 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:10,464 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-19 18:59:10,465 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:10,465 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-19 18:59:10,465 INFO    SenderThread:77897 [file_pusher.py:join():178] waiting for file pusher
+2024-02-19 18:59:10,466 INFO    SenderThread:77897 [sender.py:transition_state():617] send defer: 12
+2024-02-19 18:59:10,466 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:10,466 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-19 18:59:10,466 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:10,466 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-19 18:59:10,466 INFO    SenderThread:77897 [file_stream.py:finish():595] file stream finish called
+2024-02-19 18:59:10,629 INFO    SenderThread:77897 [file_stream.py:finish():599] file stream finish is done
+2024-02-19 18:59:10,629 INFO    SenderThread:77897 [sender.py:transition_state():617] send defer: 13
+2024-02-19 18:59:10,630 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:10,630 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-19 18:59:10,630 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:10,630 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-19 18:59:10,630 INFO    SenderThread:77897 [sender.py:transition_state():617] send defer: 14
+2024-02-19 18:59:10,631 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: defer
+2024-02-19 18:59:10,631 DEBUG   SenderThread:77897 [sender.py:send():382] send: final
+2024-02-19 18:59:10,631 INFO    HandlerThread:77897 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-19 18:59:10,631 DEBUG   SenderThread:77897 [sender.py:send():382] send: footer
+2024-02-19 18:59:10,632 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: defer
+2024-02-19 18:59:10,632 INFO    SenderThread:77897 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-19 18:59:10,632 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-19 18:59:10,633 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: poll_exit
+2024-02-19 18:59:10,635 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-19 18:59:10,635 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: server_info
+2024-02-19 18:59:10,636 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: server_info
+2024-02-19 18:59:10,680 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-19 18:59:10,681 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-19 18:59:10,682 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: job_info
+2024-02-19 18:59:10,683 DEBUG   SenderThread:77897 [sender.py:send_request():409] send_request: job_info
+2024-02-19 18:59:10,724 DEBUG   HandlerThread:77897 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-19 18:59:10,725 INFO    HandlerThread:77897 [handler.py:finish():869] shutting down handler
+2024-02-19 18:59:11,683 INFO    WriterThread:77897 [datastore.py:close():296] close: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240219_185301-jqpouvkc/run-jqpouvkc.wandb
+2024-02-19 18:59:11,683 INFO    SenderThread:77897 [sender.py:finish():1572] shutting down sender
+2024-02-19 18:59:11,684 INFO    SenderThread:77897 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-19 18:59:11,684 INFO    SenderThread:77897 [file_pusher.py:join():178] waiting for file pusher
