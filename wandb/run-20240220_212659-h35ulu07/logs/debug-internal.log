@@ -1,0 +1,1094 @@
+2024-02-20 21:26:59,693 INFO    StreamThr :38612 [internal.py:wandb_internal():86] W&B internal server running at pid: 38612, started at: 2024-02-20 21:26:59.692998
+2024-02-20 21:26:59,695 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status
+2024-02-20 21:26:59,706 INFO    WriterThread:38612 [datastore.py:open_for_write():87] open: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/run-h35ulu07.wandb
+2024-02-20 21:26:59,706 DEBUG   SenderThread:38612 [sender.py:send():382] send: header
+2024-02-20 21:26:59,716 DEBUG   SenderThread:38612 [sender.py:send():382] send: run
+2024-02-20 21:26:59,900 INFO    SenderThread:38612 [dir_watcher.py:__init__():211] watching files in: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files
+2024-02-20 21:26:59,900 INFO    SenderThread:38612 [sender.py:_start_run_threads():1136] run started: h35ulu07 with start time 1708464419.692406
+2024-02-20 21:26:59,906 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: check_version
+2024-02-20 21:26:59,906 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: check_version
+2024-02-20 21:26:59,983 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: run_start
+2024-02-20 21:26:59,994 DEBUG   HandlerThread:38612 [system_info.py:__init__():27] System info init
+2024-02-20 21:26:59,994 DEBUG   HandlerThread:38612 [system_info.py:__init__():42] System info init done
+2024-02-20 21:26:59,994 INFO    HandlerThread:38612 [system_monitor.py:start():194] Starting system monitor
+2024-02-20 21:26:59,994 INFO    SystemMonitor:38612 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-20 21:26:59,994 INFO    HandlerThread:38612 [system_monitor.py:probe():214] Collecting system info
+2024-02-20 21:26:59,995 INFO    SystemMonitor:38612 [interfaces.py:start():190] Started cpu monitoring
+2024-02-20 21:26:59,996 INFO    SystemMonitor:38612 [interfaces.py:start():190] Started disk monitoring
+2024-02-20 21:26:59,997 INFO    SystemMonitor:38612 [interfaces.py:start():190] Started gpu monitoring
+2024-02-20 21:26:59,998 INFO    SystemMonitor:38612 [interfaces.py:start():190] Started memory monitoring
+2024-02-20 21:26:59,998 INFO    SystemMonitor:38612 [interfaces.py:start():190] Started network monitoring
+2024-02-20 21:27:00,021 DEBUG   HandlerThread:38612 [system_info.py:probe():151] Probing system
+2024-02-20 21:27:00,022 DEBUG   HandlerThread:38612 [system_info.py:_probe_git():136] Probing git
+2024-02-20 21:27:00,042 DEBUG   HandlerThread:38612 [system_info.py:_probe_git():144] Probing git done
+2024-02-20 21:27:00,042 DEBUG   HandlerThread:38612 [system_info.py:probe():199] Probing system done
+2024-02-20 21:27:00,042 DEBUG   HandlerThread:38612 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-1053-aws-x86_64-with-glibc2.31', 'python': '3.10.10', 'heartbeatAt': '2024-02-20T21:27:00.021133', 'startedAt': '2024-02-20T21:26:59.684190', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'A2_Transformer/M23CSA003.ipynb', 'codePathLocal': None, 'root': '/teamspace/studios/this_studio/A2_Transformer', 'git': {'remote': 'git@github.com:KhadgaA/A2_Transformer.git', 'commit': 'ab07b8cff2e23b071a77803f947d79dc2d160e9a'}, 'email': 'khadgajyothalli@gmail.com', 'host': 'ip-10-192-10-5', 'username': 'zeus', 'executable': '/home/zeus/miniconda3/envs/cloudspace/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2799.963375, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3099.921, 'min': 0.0, 'max': 0.0}, {'current': 3099.775, 'min': 0.0, 'max': 0.0}, {'current': 2499.998, 'min': 0.0, 'max': 0.0}, {'current': 2499.998, 'min': 0.0, 'max': 0.0}, {'current': 2499.998, 'min': 0.0, 'max': 0.0}, {'current': 3099.623, 'min': 0.0, 'max': 0.0}, {'current': 2499.998, 'min': 0.0, 'max': 0.0}, {'current': 3099.997, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 387.4823341369629, 'used': 54.60236358642578}}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 16106127360}], 'memory': {'total': 30.887248992919922}}
+2024-02-20 21:27:00,042 INFO    HandlerThread:38612 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-20 21:27:00,042 INFO    HandlerThread:38612 [system_monitor.py:probe():227] Publishing system info
+2024-02-20 21:27:00,042 DEBUG   HandlerThread:38612 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-20 21:27:00,902 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/conda-environment.yaml
+2024-02-20 21:27:03,566 DEBUG   HandlerThread:38612 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-20 21:27:03,566 INFO    HandlerThread:38612 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-20 21:27:03,572 DEBUG   SenderThread:38612 [sender.py:send():382] send: files
+2024-02-20 21:27:03,572 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-20 21:27:03,585 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-20 21:27:03,585 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: python_packages
+2024-02-20 21:27:03,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:27:03,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:27:03,588 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:27:03,706 DEBUG   SenderThread:38612 [sender.py:send():382] send: telemetry
+2024-02-20 21:27:03,708 DEBUG   SenderThread:38612 [sender.py:send():382] send: config
+2024-02-20 21:27:03,816 INFO    wandb-upload_0:38612 [upload_job.py:push():131] Uploaded file /tmp/tmpf1knserqwandb/q2jh5ou2-wandb-metadata.json
+2024-02-20 21:27:03,901 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/conda-environment.yaml
+2024-02-20 21:27:03,902 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:03,902 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/requirements.txt
+2024-02-20 21:27:03,902 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-metadata.json
+2024-02-20 21:27:04,989 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:27:05,902 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:07,375 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:07,376 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:07,376 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:07,377 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:07,903 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:07,903 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:09,903 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:10,002 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:27:11,107 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:11,107 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:11,108 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:11,108 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:11,904 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:11,904 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:13,905 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:14,817 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:14,818 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:14,818 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:14,819 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:14,905 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:15,275 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:27:15,905 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:17,906 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:18,555 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:18,556 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:18,556 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:18,556 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:18,586 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:27:18,586 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:27:18,587 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:27:18,906 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:19,907 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:20,322 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:27:21,907 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:22,293 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:22,293 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:22,294 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:22,294 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:22,908 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:23,908 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:25,365 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:27:25,909 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:26,041 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:26,042 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:26,042 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:26,043 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:26,909 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:27,909 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:29,762 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:29,763 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:29,763 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:29,767 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:29,910 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:29,910 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:30,661 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:27:30,910 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/config.yaml
+2024-02-20 21:27:31,911 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:33,510 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:33,511 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:33,512 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:33,512 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:33,586 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:27:33,586 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:27:33,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:27:33,912 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:33,912 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:35,755 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:27:35,913 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:37,266 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:37,267 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:37,267 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:37,268 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:37,913 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:37,914 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:39,914 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:41,014 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:27:41,015 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:41,016 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:41,016 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:41,017 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:41,915 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:41,915 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:43,916 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:44,797 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:44,798 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:44,798 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:44,799 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:44,916 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:45,916 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:46,113 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:27:47,917 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:48,525 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:48,526 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:48,527 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:48,527 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:48,586 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:27:48,586 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:27:48,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:27:48,917 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:49,918 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:51,210 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:27:51,919 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:52,301 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:52,302 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:52,302 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:52,303 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:52,919 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:53,919 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:55,920 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:56,045 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:56,046 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:56,046 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:56,047 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:56,472 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:27:56,920 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:57,921 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:59,838 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:27:59,839 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:27:59,840 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:27:59,840 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:27:59,921 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:27:59,922 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:27:59,999 DEBUG   SystemMonitor:38612 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-20 21:28:00,000 DEBUG   SenderThread:38612 [sender.py:send():382] send: stats
+2024-02-20 21:28:01,583 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:28:01,922 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:03,571 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:03,572 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:03,572 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:03,575 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:03,586 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:28:03,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:28:03,587 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:28:03,923 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:03,923 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:05,924 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:06,630 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:28:07,288 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:07,288 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:07,289 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:07,289 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:07,924 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:07,925 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:09,925 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:11,021 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:11,023 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:11,023 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:11,024 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:11,875 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:28:11,926 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:11,927 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:13,927 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:14,754 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:14,755 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:14,755 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:14,755 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:14,927 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:15,927 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:16,920 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:28:17,928 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:18,499 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:18,499 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:18,500 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:18,500 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:18,586 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:28:18,586 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:28:18,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:28:18,929 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:19,929 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:21,930 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:22,225 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:22,226 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:28:22,226 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:22,227 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:22,227 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:22,930 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:23,930 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:25,931 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:25,990 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:25,990 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:25,991 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:25,991 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:26,931 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:27,270 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:28:27,932 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:29,727 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:29,728 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:29,728 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:29,729 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:29,933 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:29,933 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:30,001 DEBUG   SenderThread:38612 [sender.py:send():382] send: stats
+2024-02-20 21:28:31,933 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:32,324 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:28:33,452 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:33,453 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:33,453 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:33,454 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:33,586 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:28:33,587 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:28:33,589 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:28:33,934 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:33,934 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:35,935 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:37,212 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:37,213 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:37,213 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:37,214 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:37,651 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:28:37,935 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:37,936 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:39,936 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:40,985 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:40,986 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:40,987 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:40,987 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:41,937 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:41,937 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:42,680 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:28:43,938 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:44,718 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:44,719 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:44,719 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:44,720 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:44,938 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:45,938 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:47,741 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:28:47,939 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:48,467 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:48,468 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:48,468 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:48,468 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:48,586 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:28:48,587 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:28:48,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:28:48,939 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:49,940 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:51,941 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:52,198 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:52,198 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:52,199 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:52,199 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:52,941 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:53,042 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:28:53,941 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:55,942 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:55,943 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:55,946 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:55,946 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:55,946 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:56,942 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:28:57,943 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:58,065 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:28:59,693 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:28:59,694 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:28:59,694 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:28:59,695 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:28:59,943 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:28:59,944 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:00,001 DEBUG   SenderThread:38612 [sender.py:send():382] send: stats
+2024-02-20 21:29:01,944 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:03,442 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:29:03,442 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:03,443 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:03,444 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:03,444 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:03,586 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:29:03,587 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:29:03,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:29:03,945 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:03,945 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:05,945 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:07,187 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:07,188 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:07,188 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:07,188 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:07,946 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:07,946 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:08,479 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:29:09,947 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:10,944 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:10,945 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:10,945 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:10,946 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:10,947 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:11,947 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:13,525 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:29:13,948 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:14,687 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:14,688 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:14,688 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:14,689 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:14,948 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:15,949 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:17,949 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:18,449 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:18,450 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:18,450 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:18,451 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:18,586 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:29:18,587 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:29:18,589 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:29:18,744 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:29:18,950 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:19,950 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:21,951 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:22,193 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:22,194 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:22,195 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:22,195 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:22,951 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:23,944 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:29:23,952 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:25,952 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:25,991 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:25,992 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:25,992 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:25,992 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:26,953 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:27,953 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:29,031 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:29:29,763 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:29,764 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:29,764 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:29,765 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:29,954 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:29,954 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:30,003 DEBUG   SenderThread:38612 [sender.py:send():382] send: stats
+2024-02-20 21:29:31,955 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:33,529 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:33,530 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:33,530 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:33,531 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:33,586 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:29:33,587 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:29:33,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:29:33,955 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:33,956 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:34,427 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:29:35,956 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:37,271 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:37,272 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:37,272 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:37,273 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:37,956 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:37,957 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:39,448 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:29:39,957 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:41,035 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:41,036 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:41,036 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:41,037 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:41,958 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:41,959 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:43,959 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:44,801 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:29:44,801 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:44,802 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:44,802 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:44,803 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:44,959 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:45,959 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:47,960 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:48,510 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:48,511 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:48,511 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:48,512 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:48,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:29:48,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:29:48,588 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:29:48,960 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:49,847 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:29:49,961 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:51,961 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:52,237 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:52,238 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:52,238 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:52,239 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:52,962 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:53,962 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:54,873 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:29:55,963 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:55,998 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:55,999 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:55,999 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:56,000 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:56,963 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:29:57,963 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:59,751 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:29:59,752 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:29:59,753 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:29:59,753 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:29:59,964 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:29:59,964 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:00,003 DEBUG   SenderThread:38612 [sender.py:send():382] send: stats
+2024-02-20 21:30:00,003 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:30:01,965 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:03,500 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:03,501 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:03,501 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:03,502 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:03,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:30:03,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:30:03,588 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:30:03,966 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:03,966 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:05,291 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:30:05,966 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:07,253 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:07,254 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:07,254 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:07,254 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:07,967 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:07,968 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:09,968 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:10,344 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:30:11,006 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:11,007 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:11,007 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:11,008 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:11,968 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:11,969 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:13,969 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:14,734 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:14,735 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:14,735 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:14,736 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:14,969 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:15,638 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:30:15,970 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:17,970 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:18,460 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:18,460 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:18,461 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:18,461 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:18,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:30:18,587 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:30:18,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:30:18,971 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:19,971 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:20,679 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:30:21,972 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:22,199 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:22,200 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:22,200 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:22,201 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:22,972 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:23,972 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:25,971 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:30:25,972 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:25,973 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:25,973 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:25,974 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:25,974 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:25,974 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:27,975 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:29,738 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:29,739 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:29,739 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:29,740 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:29,976 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:29,976 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:30,004 DEBUG   SenderThread:38612 [sender.py:send():382] send: stats
+2024-02-20 21:30:31,060 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:30:31,976 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:33,494 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:33,495 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:33,495 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:33,495 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:33,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:30:33,588 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:30:33,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:30:33,977 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:33,977 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:35,978 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:36,167 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:30:37,261 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:37,262 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:37,262 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:37,263 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:37,978 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:37,979 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:39,979 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:41,033 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:41,034 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:41,034 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:41,035 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:41,475 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:30:41,980 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:41,981 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:43,982 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:44,834 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:44,835 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:44,835 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:44,836 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:44,982 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:46,576 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:30:46,983 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:48,581 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:48,582 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:48,582 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:48,582 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:48,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:30:48,587 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:30:48,589 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:30:48,983 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:48,984 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:50,984 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:51,653 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:30:52,319 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:52,319 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:52,320 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:52,320 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:52,985 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:52,985 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:54,985 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:56,118 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:56,120 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:56,120 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:56,120 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:56,968 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:30:56,986 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:56,986 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:30:58,986 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:30:59,869 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:30:59,870 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:30:59,871 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:30:59,871 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:30:59,987 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:00,004 DEBUG   SenderThread:38612 [sender.py:send():382] send: stats
+2024-02-20 21:31:00,987 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:02,021 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:31:02,988 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:03,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:31:03,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:31:03,588 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:31:03,656 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:03,686 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:03,686 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:03,687 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:03,988 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:04,988 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:06,989 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:07,347 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:07,347 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:31:07,347 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:07,348 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:07,348 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:07,989 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:08,989 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:10,990 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:11,104 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:11,105 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:11,105 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:11,106 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:11,991 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:12,381 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:31:12,991 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:14,874 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:14,875 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:14,875 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:14,875 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:14,992 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:14,992 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:16,992 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:17,487 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:31:18,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:31:18,588 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:31:18,590 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:31:18,692 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:18,707 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:18,708 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:18,708 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:18,993 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:18,993 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:20,993 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:22,435 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:22,436 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:22,436 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:22,437 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:22,860 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:31:22,994 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:22,994 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:24,995 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:26,247 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:26,248 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:26,248 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:26,249 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:26,995 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:26,996 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:27,962 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:31:28,996 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:30,005 DEBUG   SenderThread:38612 [sender.py:send():382] send: stats
+2024-02-20 21:31:30,062 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:30,063 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:30,063 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:30,063 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:30,997 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:30,998 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:32,997 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:33,065 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:31:33,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:31:33,588 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:31:33,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:31:33,832 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:33,833 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:33,833 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:33,833 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:33,998 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:34,998 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:36,999 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:37,533 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:37,534 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:37,534 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:37,535 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:37,999 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:38,402 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:31:38,999 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:41,000 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:41,300 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:41,301 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:41,301 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:41,302 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:42,000 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:43,001 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:43,454 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:31:45,001 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:45,074 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:45,075 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:45,075 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:45,076 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:46,002 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:47,002 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:48,587 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:31:48,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:31:48,588 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:31:48,694 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:31:48,840 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:48,841 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:48,841 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:48,842 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:49,003 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:49,003 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:51,004 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:52,513 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:52,514 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:52,514 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:52,515 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:53,004 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:53,005 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:53,841 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:31:55,005 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:56,302 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:31:56,303 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:31:56,303 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:31:56,304 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:31:57,005 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:31:57,006 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:31:58,887 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:31:59,006 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:00,005 DEBUG   SenderThread:38612 [sender.py:send():382] send: stats
+2024-02-20 21:32:00,060 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:00,061 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:00,061 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:00,062 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:01,007 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:01,007 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:03,007 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:03,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:32:03,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:32:03,588 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:32:03,848 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:03,849 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:03,849 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:03,849 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:04,008 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:04,254 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:32:05,008 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:07,008 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:07,522 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:07,523 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:07,523 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:07,524 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:08,009 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:09,009 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:09,309 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:32:11,010 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:11,311 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:11,312 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:11,312 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:11,313 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:12,010 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:13,010 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:14,353 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:32:15,011 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:15,076 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:15,077 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:15,078 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:15,078 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:16,012 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:17,012 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:18,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:32:18,588 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:32:18,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:32:18,844 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:18,845 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:18,845 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:18,846 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:19,012 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:19,013 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:19,691 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:32:21,013 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:22,522 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:22,523 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:22,523 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:22,523 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:23,014 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:23,014 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:24,737 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:32:25,014 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:26,310 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:26,312 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:26,312 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:26,313 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:27,015 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:27,015 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:29,016 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:30,007 DEBUG   SenderThread:38612 [sender.py:send():382] send: stats
+2024-02-20 21:32:30,007 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:32:30,054 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:30,055 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:30,055 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:30,056 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:31,016 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:31,017 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:33,017 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:33,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:32:33,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:32:33,589 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:32:33,824 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:33,825 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:33,825 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:33,825 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:34,017 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:35,018 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:35,111 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:32:37,018 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:37,524 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:37,525 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:37,525 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:37,525 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:38,019 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:39,019 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:40,191 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:32:41,020 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:41,298 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:41,299 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:41,299 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:41,299 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:42,020 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:43,020 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:45,021 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:45,055 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:45,055 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:45,056 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:45,056 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:45,504 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:32:46,021 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:47,022 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:48,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:32:48,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:32:48,589 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:32:48,808 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:48,809 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:48,809 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:48,810 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:49,022 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:49,023 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:50,550 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:32:51,023 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:52,504 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:52,504 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:52,505 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:52,505 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:53,024 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:53,024 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:55,024 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:55,633 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:32:56,306 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:32:56,306 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:32:56,306 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:32:56,307 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:32:57,025 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:32:57,025 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:32:59,026 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:00,006 DEBUG   SenderThread:38612 [sender.py:send():382] send: stats
+2024-02-20 21:33:00,082 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:33:00,083 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:33:00,084 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:33:00,084 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:00,952 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:33:01,027 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:01,027 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:33:03,028 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:03,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:33:03,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:33:03,589 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:33:03,864 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:33:03,865 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:33:03,865 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:33:03,865 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:04,028 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:33:05,028 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:06,029 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:33:07,029 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:07,538 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:33:07,538 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:33:07,539 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:33:07,539 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:08,029 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:33:09,030 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:11,030 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:11,336 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:33:11,336 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:33:11,337 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:33:11,337 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:33:11,338 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:12,031 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:33:13,031 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:15,032 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:15,102 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:33:15,103 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:33:15,103 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:33:15,104 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:16,032 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:33:16,411 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:33:17,032 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:18,588 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-20 21:33:18,589 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: stop_status
+2024-02-20 21:33:18,591 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:33:18,872 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:33:18,873 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:33:18,873 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:33:18,873 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:19,033 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:19,033 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:33:19,333 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:33:19,334 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:19,334 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:33:19,334 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:19,361 DEBUG   SenderThread:38612 [sender.py:send():382] send: config
+2024-02-20 21:33:19,452 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: log_artifact
+2024-02-20 21:33:19,453 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: log_artifact
+2024-02-20 21:33:19,466 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:33:19,567 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: log_artifact
+2024-02-20 21:33:19,579 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:33:19,653 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: log_artifact
+2024-02-20 21:33:19,665 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-20 21:33:19,848 INFO    SenderThread:38612 [sender.py:send_request_log_artifact():1470] logged artifact run-h35ulu07-pr_table - {'id': 'QXJ0aWZhY3Q6NzI3MjMzNTQz', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTU3NjYzMw==', 'latestArtifact': None}}
+2024-02-20 21:33:19,849 DEBUG   SenderThread:38612 [sender.py:send():382] send: files
+2024-02-20 21:33:19,849 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file media/table/pr_table_100_d3759a22369d8a58a35d.table.json with policy now
+2024-02-20 21:33:19,849 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:33:19,850 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:33:19,850 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:19,853 DEBUG   SenderThread:38612 [sender.py:send():382] send: config
+2024-02-20 21:33:19,853 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: log_artifact
+2024-02-20 21:33:20,033 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:33:20,034 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/media/table/conf_mat_table_102_feccd1f41ab6fa5cb56e.table.json
+2024-02-20 21:33:20,034 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/media/table/pr_table_100_d3759a22369d8a58a35d.table.json
+2024-02-20 21:33:20,034 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/media/table/roc_table_101_b3ec9c18301c7d7fef48.table.json
+2024-02-20 21:33:20,035 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/media
+2024-02-20 21:33:20,035 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_created():271] file/dir created: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/media/table
+2024-02-20 21:33:20,076 INFO    SenderThread:38612 [sender.py:send_request_log_artifact():1470] logged artifact run-h35ulu07-roc_table - {'id': 'QXJ0aWZhY3Q6NzI3MjMzNTQ4', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTU3NjYzNw==', 'latestArtifact': None}}
+2024-02-20 21:33:20,076 DEBUG   SenderThread:38612 [sender.py:send():382] send: files
+2024-02-20 21:33:20,076 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file media/table/roc_table_101_b3ec9c18301c7d7fef48.table.json with policy now
+2024-02-20 21:33:20,077 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:33:20,077 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:33:20,078 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:20,078 DEBUG   SenderThread:38612 [sender.py:send():382] send: config
+2024-02-20 21:33:20,078 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: log_artifact
+2024-02-20 21:33:20,097 INFO    wandb-upload_1:38612 [upload_job.py:push():131] Uploaded file /tmp/tmpf1knserqwandb/o8ygmvum-media/table/pr_table_100_d3759a22369d8a58a35d.table.json
+2024-02-20 21:33:20,179 INFO    wandb-upload_0:38612 [upload_job.py:push():89] Uploaded file /teamspace/studios/this_studio/.local/share/wandb/artifacts/staging/tmpz3r7j88i
+2024-02-20 21:33:20,230 INFO    wandb-upload_2:38612 [upload_job.py:push():131] Uploaded file /tmp/tmpf1knserqwandb/v99sbwaf-media/table/conf_mat_table_102_feccd1f41ab6fa5cb56e.table.json
+2024-02-20 21:33:20,232 INFO    wandb-upload_3:38612 [upload_job.py:push():131] Uploaded file /tmp/tmpf1knserqwandb/ziq06smd-media/table/roc_table_101_b3ec9c18301c7d7fef48.table.json
+2024-02-20 21:33:20,316 INFO    SenderThread:38612 [sender.py:send_request_log_artifact():1470] logged artifact run-h35ulu07-conf_mat_table - {'id': 'QXJ0aWZhY3Q6NzI3MjMzNTUx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTU3NjYzOA==', 'latestArtifact': None}}
+2024-02-20 21:33:20,316 DEBUG   SenderThread:38612 [sender.py:send():382] send: files
+2024-02-20 21:33:20,316 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file media/table/conf_mat_table_102_feccd1f41ab6fa5cb56e.table.json with policy now
+2024-02-20 21:33:20,316 DEBUG   SenderThread:38612 [sender.py:send():382] send: history
+2024-02-20 21:33:20,317 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:33:20,317 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:20,317 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:33:20,318 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:20,318 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:33:20,319 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:20,319 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: summary_record
+2024-02-20 21:33:20,319 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:20,320 DEBUG   SenderThread:38612 [sender.py:send():382] send: telemetry
+2024-02-20 21:33:20,320 DEBUG   SenderThread:38612 [sender.py:send():382] send: exit
+2024-02-20 21:33:20,320 INFO    SenderThread:38612 [sender.py:send_exit():589] handling exit code: 0
+2024-02-20 21:33:20,320 INFO    SenderThread:38612 [sender.py:send_exit():591] handling runtime: 379
+2024-02-20 21:33:20,320 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:20,321 INFO    SenderThread:38612 [sender.py:send_exit():597] send defer
+2024-02-20 21:33:20,321 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:20,321 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-20 21:33:20,321 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:20,321 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-20 21:33:20,321 INFO    SenderThread:38612 [sender.py:transition_state():617] send defer: 1
+2024-02-20 21:33:20,322 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:20,322 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-20 21:33:20,322 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:20,322 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-20 21:33:20,322 INFO    SenderThread:38612 [sender.py:transition_state():617] send defer: 2
+2024-02-20 21:33:20,322 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:20,322 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-20 21:33:20,322 INFO    HandlerThread:38612 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-20 21:33:20,323 INFO    HandlerThread:38612 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-20 21:33:20,323 DEBUG   SystemMonitor:38612 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-20 21:33:20,323 INFO    HandlerThread:38612 [interfaces.py:finish():202] Joined disk monitor
+2024-02-20 21:33:20,323 DEBUG   SystemMonitor:38612 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-20 21:33:20,330 INFO    HandlerThread:38612 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-20 21:33:20,330 INFO    HandlerThread:38612 [interfaces.py:finish():202] Joined memory monitor
+2024-02-20 21:33:20,330 INFO    HandlerThread:38612 [interfaces.py:finish():202] Joined network monitor
+2024-02-20 21:33:20,331 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:20,331 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-20 21:33:20,331 INFO    SenderThread:38612 [sender.py:transition_state():617] send defer: 3
+2024-02-20 21:33:20,331 DEBUG   SenderThread:38612 [sender.py:send():382] send: stats
+2024-02-20 21:33:20,331 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:20,331 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-20 21:33:20,332 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:20,332 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-20 21:33:20,332 INFO    SenderThread:38612 [sender.py:transition_state():617] send defer: 4
+2024-02-20 21:33:20,332 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:20,332 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-20 21:33:20,332 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:20,332 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-20 21:33:20,332 INFO    SenderThread:38612 [sender.py:transition_state():617] send defer: 5
+2024-02-20 21:33:20,333 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:20,333 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-20 21:33:20,333 DEBUG   SenderThread:38612 [sender.py:send():382] send: summary
+2024-02-20 21:33:20,334 INFO    SenderThread:38612 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-20 21:33:20,334 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:20,334 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-20 21:33:20,334 INFO    SenderThread:38612 [sender.py:transition_state():617] send defer: 6
+2024-02-20 21:33:20,334 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:20,334 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-20 21:33:20,335 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:20,335 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-20 21:33:20,338 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: status_report
+2024-02-20 21:33:20,354 INFO    wandb-upload_4:38612 [upload_job.py:push():89] Uploaded file /teamspace/studios/this_studio/.local/share/wandb/artifacts/staging/tmprz1i9et7
+2024-02-20 21:33:20,371 INFO    wandb-upload_1:38612 [upload_job.py:push():131] Uploaded file /tmp/tmpf1knserqwandb/n16gqexo-media/table/pr_table_100_d3759a22369d8a58a35d.table.json
+2024-02-20 21:33:20,419 INFO    SenderThread:38612 [sender.py:transition_state():617] send defer: 7
+2024-02-20 21:33:20,419 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:20,420 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-20 21:33:20,420 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:20,420 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-20 21:33:20,674 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-20 21:33:20,885 INFO    wandb-upload_3:38612 [upload_job.py:push():131] Uploaded file /tmp/tmpf1knserqwandb/kh4nsont-media/table/conf_mat_table_102_feccd1f41ab6fa5cb56e.table.json
+2024-02-20 21:33:20,886 INFO    wandb-upload_0:38612 [upload_job.py:push():131] Uploaded file /tmp/tmpf1knserqwandb/xtujsodg-media/table/roc_table_101_b3ec9c18301c7d7fef48.table.json
+2024-02-20 21:33:20,948 INFO    wandb-upload_2:38612 [upload_job.py:push():89] Uploaded file /teamspace/studios/this_studio/.local/share/wandb/artifacts/staging/tmpoqt9_u6h
+2024-02-20 21:33:21,034 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:21,034 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:33:21,034 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/config.yaml
+2024-02-20 21:33:23,035 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:24,173 INFO    SenderThread:38612 [sender.py:transition_state():617] send defer: 8
+2024-02-20 21:33:24,173 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: poll_exit
+2024-02-20 21:33:24,174 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:24,174 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-20 21:33:24,174 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:24,174 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-20 21:33:24,174 INFO    SenderThread:38612 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-20 21:33:24,176 INFO    SenderThread:38612 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-02-20 21:33:24,176 INFO    SenderThread:38612 [job_builder.py:_get_program_relpath():444] run is notebook based run
+2024-02-20 21:33:24,177 INFO    SenderThread:38612 [job_builder.py:build():402] adding wandb-job metadata file
+2024-02-20 21:33:24,186 INFO    SenderThread:38612 [sender.py:transition_state():617] send defer: 9
+2024-02-20 21:33:24,187 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:24,187 DEBUG   SenderThread:38612 [sender.py:send():382] send: artifact
+2024-02-20 21:33:24,187 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-20 21:33:24,414 INFO    SenderThread:38612 [sender.py:send_artifact():1494] sent artifact job-git_github.com_KhadgaA_A2_Transformer.git_A2_Transformer_M23CSA003.ipynb - {'id': 'QXJ0aWZhY3Q6NzI3MjE2ODY1', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTU3MTgyMg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzI3MjE2ODY1', 'versionIndex': 0}}}
+2024-02-20 21:33:24,414 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:24,414 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-20 21:33:24,414 INFO    SenderThread:38612 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-20 21:33:24,675 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-20 21:33:25,035 INFO    Thread-12 :38612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:25,036 INFO    SenderThread:38612 [dir_watcher.py:finish():388] scan: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files
+2024-02-20 21:33:25,036 INFO    SenderThread:38612 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log output.log
+2024-02-20 21:33:25,037 INFO    SenderThread:38612 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/requirements.txt requirements.txt
+2024-02-20 21:33:25,037 INFO    SenderThread:38612 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json wandb-summary.json
+2024-02-20 21:33:25,042 INFO    SenderThread:38612 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-metadata.json wandb-metadata.json
+2024-02-20 21:33:25,042 INFO    SenderThread:38612 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/config.yaml config.yaml
+2024-02-20 21:33:25,045 INFO    SenderThread:38612 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/conda-environment.yaml conda-environment.yaml
+2024-02-20 21:33:25,050 INFO    SenderThread:38612 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/media/table/conf_mat_table_102_feccd1f41ab6fa5cb56e.table.json media/table/conf_mat_table_102_feccd1f41ab6fa5cb56e.table.json
+2024-02-20 21:33:25,050 INFO    SenderThread:38612 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/media/table/pr_table_100_d3759a22369d8a58a35d.table.json media/table/pr_table_100_d3759a22369d8a58a35d.table.json
+2024-02-20 21:33:25,051 INFO    SenderThread:38612 [dir_watcher.py:finish():402] scan save: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/media/table/roc_table_101_b3ec9c18301c7d7fef48.table.json media/table/roc_table_101_b3ec9c18301c7d7fef48.table.json
+2024-02-20 21:33:25,051 INFO    SenderThread:38612 [sender.py:transition_state():617] send defer: 10
+2024-02-20 21:33:25,051 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: poll_exit
+2024-02-20 21:33:25,051 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:25,051 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-20 21:33:25,052 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:25,052 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-20 21:33:25,052 INFO    SenderThread:38612 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-20 21:33:25,233 INFO    wandb-upload_2:38612 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/conda-environment.yaml
+2024-02-20 21:33:25,236 INFO    wandb-upload_0:38612 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/wandb-summary.json
+2024-02-20 21:33:25,275 INFO    wandb-upload_4:38612 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/requirements.txt
+2024-02-20 21:33:25,306 INFO    wandb-upload_3:38612 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/config.yaml
+2024-02-20 21:33:25,320 INFO    wandb-upload_1:38612 [upload_job.py:push():131] Uploaded file /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/files/output.log
+2024-02-20 21:33:25,521 INFO    Thread-11 (_thread_body):38612 [sender.py:transition_state():617] send defer: 11
+2024-02-20 21:33:25,521 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:25,521 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-20 21:33:25,521 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:25,522 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-20 21:33:25,522 INFO    SenderThread:38612 [file_pusher.py:join():178] waiting for file pusher
+2024-02-20 21:33:25,522 INFO    SenderThread:38612 [sender.py:transition_state():617] send defer: 12
+2024-02-20 21:33:25,523 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:25,523 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-20 21:33:25,523 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:25,523 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-20 21:33:25,523 INFO    SenderThread:38612 [file_stream.py:finish():595] file stream finish called
+2024-02-20 21:33:25,678 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-20 21:33:25,752 INFO    SenderThread:38612 [file_stream.py:finish():599] file stream finish is done
+2024-02-20 21:33:25,752 INFO    SenderThread:38612 [sender.py:transition_state():617] send defer: 13
+2024-02-20 21:33:25,752 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: poll_exit
+2024-02-20 21:33:25,752 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:25,753 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-20 21:33:25,753 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:25,753 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-20 21:33:25,753 INFO    SenderThread:38612 [sender.py:transition_state():617] send defer: 14
+2024-02-20 21:33:25,753 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: defer
+2024-02-20 21:33:25,753 DEBUG   SenderThread:38612 [sender.py:send():382] send: final
+2024-02-20 21:33:25,754 INFO    HandlerThread:38612 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-20 21:33:25,754 DEBUG   SenderThread:38612 [sender.py:send():382] send: footer
+2024-02-20 21:33:25,754 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: defer
+2024-02-20 21:33:25,754 INFO    SenderThread:38612 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-20 21:33:25,755 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-20 21:33:25,755 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: poll_exit
+2024-02-20 21:33:25,756 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-20 21:33:25,757 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: server_info
+2024-02-20 21:33:25,757 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: server_info
+2024-02-20 21:33:25,800 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-20 21:33:25,800 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-20 21:33:25,801 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: job_info
+2024-02-20 21:33:25,801 DEBUG   SenderThread:38612 [sender.py:send_request():409] send_request: job_info
+2024-02-20 21:33:25,844 DEBUG   HandlerThread:38612 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-20 21:33:25,844 INFO    HandlerThread:38612 [handler.py:finish():869] shutting down handler
+2024-02-20 21:33:26,802 INFO    WriterThread:38612 [datastore.py:close():296] close: /teamspace/studios/this_studio/A2_Transformer/wandb/run-20240220_212659-h35ulu07/run-h35ulu07.wandb
+2024-02-20 21:33:26,802 INFO    SenderThread:38612 [sender.py:finish():1572] shutting down sender
+2024-02-20 21:33:26,802 INFO    SenderThread:38612 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-20 21:33:26,802 INFO    SenderThread:38612 [file_pusher.py:join():178] waiting for file pusher

@@ -1,0 +1,18 @@
+wandb_version: 1
+
+dk:
+  value: 32
+dv:
+  value: 64
+epochs:
+  value: 100
+features_length:
+  value: 16
+learning_rate:
+  value: 0.006254289750893411
+num_blocks:
+  value: 2
+num_heads:
+  value: 2
+optimizer:
+  value: adam
